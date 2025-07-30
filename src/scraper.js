@@ -3,7 +3,7 @@
 import puppeteer from 'puppeteer';
 import * as cheerio from 'cheerio';
 import { format, addWeeks, startOfWeek, endOfWeek } from 'date-fns';
-import { es } from 'date-fns/locale/index.js';
+import { es } from 'date-fns/locale';
 import fs from 'fs-extra';
 import path from 'path';
 import yargs from 'yargs';

@@ -4,7 +4,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import chalk from 'chalk';
 import { format, parseISO } from 'date-fns';
-import { es } from 'date-fns/locale/index.js';
+import { es } from 'date-fns/locale';
 
 /**
  * Generar resumen de la última ejecución

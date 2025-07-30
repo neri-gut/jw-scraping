@@ -1,0 +1,28 @@
+meta {
+  name: Statistics
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{baseUrl}}/stats.json
+  body: none
+  auth: none
+}
+
+headers {
+  Accept: application/json
+}
+
+docs {
+  # Statistics
+  
+  Obtiene estadísticas generales de toda la API.
+  
+  ## Respuesta esperada:
+  - Total de semanas disponibles
+  - Total de reuniones
+  - Total de materiales
+  - Duración promedio
+  - Última actualización
+}
