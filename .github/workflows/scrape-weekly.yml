@@ -1,0 +1,90 @@
+# 🔄 Scraping automático de contenido semanal de JW.org
+name: Scrape Weekly Meeting Content
+
+on:
+  # Ejecutar cada lunes a las 6:00 AM UTC (cuando se publica contenido nuevo)
+  schedule:
+    - cron: '0 6 * * 1'
+  
+  # Permitir ejecución manual
+  workflow_dispatch:
+    inputs:
+      week_date:
+        description: 'Fecha específica (YYYY-MM-DD) o "latest"'
+        required: false
+        default: 'latest'
+      force_update:
+        description: 'Forzar actualización'
+        type: boolean
+        default: false
+      language:
+        description: 'Idioma del contenido'
+        required: false
+        default: 'es'
+
+env:
+  NODE_VERSION: '18'
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 🟢 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
+
+    - name: 📦 Install dependencies
+      run: npm ci
+
+    - name: 🕷️ Scrape weekly content
+      run: |
+        npm run scrape -- \
+          --week="${{ github.event.inputs.week_date || 'latest' }}" \
+          --force="${{ github.event.inputs.force_update || 'false' }}" \
+          --language="${{ github.event.inputs.language || 'es' }}"
+
+    - name: ✅ Validate content
+      run: npm run validate
+
+    - name: 📊 Generate API
+      run: npm run generate-api
+
+    - name: 🚀 Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./api
+        force_orphan: true
+        commit_message: "🚀 Deploy API: Week ${{ github.event.inputs.week_date || 'latest' }}"
+
+    - name: 📝 Commit data changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        
+        git add data/ api/
+        
+        if ! git diff --staged --quiet; then
+          WEEK_INFO=$(npm run summary --silent)
+          git commit -m "📅 Update: $WEEK_INFO
+
+          Automated by GitHub Actions
+          Timestamp: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          Trigger: ${{ github.event_name }}"
+          
+          git push
+        else
+          echo "No changes to commit"
+        fi
+
+    - name: 📋 Summary
+      run: npm run summary >> $GITHUB_STEP_SUMMARY
