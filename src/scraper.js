@@ -3,7 +3,7 @@
 import puppeteer from 'puppeteer';
 import * as cheerio from 'cheerio';
 import { format, addWeeks, startOfWeek, endOfWeek } from 'date-fns';
-import { es } from 'date-fns/locale/index.js';
+import { es } from 'date-fns/locale';
 import fs from 'fs-extra';
 import path from 'path';
 import yargs from 'yargs';
@@ -507,7 +507,8 @@ async function main() {
   try {
     const weekDate = getTargetWeekDate();
     const weekStart = startOfWeek(weekDate, { weekStartsOn: 1 }); // Lunes
-    const weekEnd = endOfWeek(weekDate, { weekStartsOn: 1 }); // Domingo
+    const weekEnd = new Date(weekStart);
+    weekEnd.setDate(weekEnd.getDate() + 6); // Domingo (6 días después del lunes)
     
     console.log(chalk.yellow(`📅 Procesando semana: ${format(weekStart, 'dd/MM/yyyy')} - ${format(weekEnd, 'dd/MM/yyyy')}`));
     
