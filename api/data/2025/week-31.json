@@ -9,7 +9,7 @@
     {
       "type": "midweek",
       "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-07-30T05:19:23.014Z",
+      "date": "2025-07-30T05:40:43.190Z",
       "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/7-30/",
       "sections": [],
       "materials": {
@@ -34,12 +34,12 @@
         "songs": []
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-07-30T05:19:23.016Z"
+      "scrapedAt": "2025-07-30T05:40:43.192Z"
     },
     {
       "type": "weekend",
       "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-07-30T05:19:22.940Z",
+      "date": "2025-07-30T05:40:43.120Z",
       "url": "https://www.jw.org/es/reuniones/fin-de-semana/2025/7-30/",
       "sections": [],
       "materials": {
@@ -64,7 +64,7 @@
         "songs": []
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-07-30T05:19:22.943Z"
+      "scrapedAt": "2025-07-30T05:40:43.123Z"
     }
   ],
   "urls": {
@@ -79,7 +79,7 @@
     "totalDuration": 0
   },
   "metadata": {
-    "generatedAt": "2025-07-30T05:19:23.030Z",
+    "generatedAt": "2025-07-30T05:40:43.202Z",
     "weekNumber": 31,
     "year": 2025,
     "filename": "week-31.json",

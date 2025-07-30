@@ -11,13 +11,13 @@
       "totalDuration": 0,
       "totalMaterials": 4,
       "dataUrl": "./data/2025/week-31.json",
-      "lastUpdated": "2025-07-30T05:19:23.030Z"
+      "lastUpdated": "2025-07-30T05:40:43.202Z"
     }
   ],
   "meta": {
     "endpoint": "weeks",
     "description": "Lista de todas las semanas disponibles",
-    "generatedAt": "2025-07-30T05:19:23.967Z",
+    "generatedAt": "2025-07-30T05:40:44.091Z",
     "totalWeeks": 1,
     "dateRange": {
       "earliest": "2025-07-28T00:00:00.000Z",
