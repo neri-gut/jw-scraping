@@ -1,0 +1,89 @@
+{
+  "id": "week-2025-31",
+  "weekStartDate": "2025-07-28T00:00:00.000Z",
+  "weekEndDate": "2025-08-03T00:00:00.000Z",
+  "weekOf": "Semana del 28-28 jul",
+  "year": 2025,
+  "weekNumber": 31,
+  "meetings": [
+    {
+      "type": "midweek",
+      "title": "Lo sentimos. La página que busca no se pudo hallar.",
+      "date": "2025-07-30T05:19:23.014Z",
+      "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/7-30/",
+      "sections": [],
+      "materials": {
+        "videos": [],
+        "images": [
+          {
+            "id": "image-1",
+            "title": "Imagen 1",
+            "url": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print.png",
+            "thumbnail": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print.png",
+            "format": "png"
+          },
+          {
+            "id": "image-2",
+            "title": "Imagen 2",
+            "url": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print-rtl.png",
+            "thumbnail": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print-rtl.png",
+            "format": "png"
+          }
+        ],
+        "audio": [],
+        "songs": []
+      },
+      "totalDuration": 0,
+      "scrapedAt": "2025-07-30T05:19:23.016Z"
+    },
+    {
+      "type": "weekend",
+      "title": "Lo sentimos. La página que busca no se pudo hallar.",
+      "date": "2025-07-30T05:19:22.940Z",
+      "url": "https://www.jw.org/es/reuniones/fin-de-semana/2025/7-30/",
+      "sections": [],
+      "materials": {
+        "videos": [],
+        "images": [
+          {
+            "id": "image-1",
+            "title": "Imagen 1",
+            "url": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print.png",
+            "thumbnail": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print.png",
+            "format": "png"
+          },
+          {
+            "id": "image-2",
+            "title": "Imagen 2",
+            "url": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print-rtl.png",
+            "thumbnail": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print-rtl.png",
+            "format": "png"
+          }
+        ],
+        "audio": [],
+        "songs": []
+      },
+      "totalDuration": 0,
+      "scrapedAt": "2025-07-30T05:19:22.943Z"
+    }
+  ],
+  "urls": {
+    "midweek": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/7-30/",
+    "weekend": "https://www.jw.org/es/reuniones/fin-de-semana/2025/7-30/",
+    "workbook": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/",
+    "meetings": "https://www.jw.org/es/reuniones/"
+  },
+  "stats": {
+    "totalSections": 0,
+    "totalMaterials": 4,
+    "totalDuration": 0
+  },
+  "metadata": {
+    "generatedAt": "2025-07-30T05:19:23.030Z",
+    "weekNumber": 31,
+    "year": 2025,
+    "filename": "week-31.json",
+    "version": "1.0",
+    "language": "es"
+  }
+}
