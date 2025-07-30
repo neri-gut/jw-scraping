@@ -23,7 +23,7 @@ on:
         default: 'es'
 
 env:
-  NODE_VERSION: '18'
+  NODE_VERSION: '20'
 
 jobs:
   scrape-and-deploy:
