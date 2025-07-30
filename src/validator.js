@@ -173,7 +173,7 @@ function validateMeetingData(data) {
       errors.push('weekEndDate must be after weekStartDate');
     }
     
-    const daysDiff = (endDate - startDate) / (1000 * 60 * 60 * 24);
+    const daysDiff = Math.round((endDate - startDate) / (1000 * 60 * 60 * 24));
     if (daysDiff !== 6) {
       errors.push(`Week should span 7 days, but spans ${daysDiff + 1} days`);
     }
