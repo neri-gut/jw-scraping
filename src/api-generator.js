@@ -5,11 +5,11 @@ import path from 'path';
 import chalk from 'chalk';
 import ora from 'ora';
 import { format, parseISO } from 'date-fns';
-import { es } from 'date-fns/locale/index.js';
+import { es } from 'date-fns/locale';
 
 const API_CONFIG = {
-  outputDir: './api',
-  dataDir: './data',
+  outputDir: process.env.API_OUTPUT_DIR || './api',
+  dataDir: process.env.CONTENT_OUTPUT_DIR || './data',
   endpoints: {
     latest: 'latest.json',
     weeks: 'weeks.json',

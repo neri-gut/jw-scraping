@@ -1,0 +1,27 @@
+meta {
+  name: API Info
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/index.json
+  body: none
+  auth: none
+}
+
+headers {
+  Accept: application/json
+}
+
+docs {
+  # API Info
+  
+  Obtiene información general de la API, endpoints disponibles y estadísticas.
+  
+  ## Respuesta esperada:
+  - Metadatos de la API
+  - Lista de endpoints disponibles
+  - Estadísticas generales
+  - Ejemplos de uso
+}

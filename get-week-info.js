@@ -3,7 +3,7 @@
 import fs from 'fs-extra';
 import path from 'path';
 import { format } from 'date-fns';
-import { es } from 'date-fns/locale/index.js';
+import { es } from 'date-fns/locale';
 
 /**
  * Obtener información básica de la semana para el commit
