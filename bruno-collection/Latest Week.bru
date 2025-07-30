@@ -1,0 +1,29 @@
+meta {
+  name: Latest Week
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/latest.json
+  body: none
+  auth: none
+}
+
+headers {
+  Accept: application/json
+}
+
+docs {
+  # Latest Week
+  
+  Obtiene los datos completos de la semana más reciente.
+  
+  ## Respuesta esperada:
+  - ID de la semana
+  - Fechas de inicio y fin
+  - Reuniones (entre semana y fin de semana)
+  - Secciones de cada reunión
+  - Materiales multimedia
+  - Estadísticas de la semana
+}

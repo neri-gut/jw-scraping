@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "JW.org Meeting API",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
