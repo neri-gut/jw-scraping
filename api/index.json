@@ -3,7 +3,7 @@
     "name": "JW.org Meeting Content API",
     "description": "API automatizada para contenido semanal de reuniones de Testigos de Jehová",
     "version": "1.0",
-    "generatedAt": "2025-07-30T05:40:44.092Z",
+    "generatedAt": "2025-08-01T17:09:15.477Z",
     "language": "es",
     "baseUrl": "https://tu-usuario.github.io/jw-scraping"
   },
@@ -38,7 +38,7 @@
     "totalMeetings": 2,
     "totalMaterials": 4,
     "averageDuration": 0,
-    "lastUpdate": "2025-07-30T05:40:43.202Z"
+    "lastUpdate": "2025-08-01T17:09:04.190Z"
   },
   "usage": {
     "examples": [
