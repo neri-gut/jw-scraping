@@ -1,0 +1,28 @@
+{
+  "weeks": [
+    {
+      "id": "week-2025-31",
+      "weekOf": "Semana del 28-28 jul",
+      "weekStartDate": "2025-07-28T06:00:00.000Z",
+      "weekEndDate": "2025-08-03T06:00:00.000Z",
+      "year": 2025,
+      "weekNumber": 31,
+      "meetingCount": 2,
+      "totalDuration": 0,
+      "totalMaterials": 4,
+      "dataUrl": "./data/2025/week-31.json",
+      "lastUpdated": "2025-08-01T17:09:04.190Z"
+    }
+  ],
+  "meta": {
+    "endpoint": "weeks",
+    "description": "Lista de todas las semanas disponibles",
+    "generatedAt": "2025-08-01T17:09:15.477Z",
+    "totalWeeks": 1,
+    "dateRange": {
+      "earliest": "2025-07-28T06:00:00.000Z",
+      "latest": "2025-07-28T06:00:00.000Z"
+    },
+    "version": "1.0"
+  }
+}

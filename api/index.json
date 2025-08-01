@@ -1,0 +1,62 @@
+{
+  "api": {
+    "name": "JW.org Meeting Content API",
+    "description": "API automatizada para contenido semanal de reuniones de Testigos de Jehová",
+    "version": "1.0",
+    "generatedAt": "2025-08-01T17:09:15.477Z",
+    "language": "es",
+    "baseUrl": "https://tu-usuario.github.io/jw-scraping"
+  },
+  "endpoints": {
+    "latest": {
+      "url": "./latest.json",
+      "description": "Datos de la semana más reciente",
+      "cache": "1 hour"
+    },
+    "weeks": {
+      "url": "./weeks.json",
+      "description": "Lista de todas las semanas disponibles",
+      "cache": "6 hours"
+    },
+    "weekData": {
+      "url": "./data/{year}/week-{weekNumber}.json",
+      "description": "Datos específicos de una semana",
+      "parameters": {
+        "year": "2025",
+        "weekNumber": "01-53 (con ceros a la izquierda)"
+      },
+      "cache": "24 hours"
+    },
+    "stats": {
+      "url": "./stats.json",
+      "description": "Estadísticas generales de la API",
+      "cache": "24 hours"
+    }
+  },
+  "stats": {
+    "totalWeeks": 1,
+    "totalMeetings": 2,
+    "totalMaterials": 4,
+    "averageDuration": 0,
+    "lastUpdate": "2025-08-01T17:09:04.190Z"
+  },
+  "usage": {
+    "examples": [
+      {
+        "description": "Obtener la semana más reciente",
+        "url": "./latest.json"
+      },
+      {
+        "description": "Obtener lista de semanas",
+        "url": "./weeks.json"
+      },
+      {
+        "description": "Obtener semana específica",
+        "url": "./data/2025/week-03.json"
+      }
+    ],
+    "cors": "enabled",
+    "rateLimit": "none",
+    "authentication": "none"
+  }
+}
