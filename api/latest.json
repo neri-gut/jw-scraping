@@ -9,8 +9,8 @@
     {
       "type": "midweek",
       "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-07-30T05:50:58.987Z",
-      "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/7-30/",
+      "date": "2025-08-01T17:34:33.144Z",
+      "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/8-1/",
       "sections": [],
       "materials": {
         "videos": [],
@@ -34,13 +34,13 @@
         "songs": []
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-07-30T05:50:58.989Z"
+      "scrapedAt": "2025-08-01T17:34:33.146Z"
     },
     {
       "type": "weekend",
       "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-07-30T05:50:58.910Z",
-      "url": "https://www.jw.org/es/reuniones/fin-de-semana/2025/7-30/",
+      "date": "2025-08-01T17:34:33.081Z",
+      "url": "https://www.jw.org/es/reuniones/fin-de-semana/2025/8-1/",
       "sections": [],
       "materials": {
         "videos": [],
@@ -64,12 +64,12 @@
         "songs": []
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-07-30T05:50:58.913Z"
+      "scrapedAt": "2025-08-01T17:34:33.085Z"
     }
   ],
   "urls": {
-    "midweek": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/7-30/",
-    "weekend": "https://www.jw.org/es/reuniones/fin-de-semana/2025/7-30/",
+    "midweek": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/8-1/",
+    "weekend": "https://www.jw.org/es/reuniones/fin-de-semana/2025/8-1/",
     "workbook": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/",
     "meetings": "https://www.jw.org/es/reuniones/"
   },
@@ -79,7 +79,7 @@
     "totalDuration": 0
   },
   "metadata": {
-    "generatedAt": "2025-07-30T05:50:58.994Z",
+    "generatedAt": "2025-08-01T17:34:33.150Z",
     "weekNumber": 31,
     "year": 2025,
     "filename": "week-31.json",
@@ -89,7 +89,7 @@
   "meta": {
     "endpoint": "latest",
     "description": "Datos de la semana más reciente",
-    "generatedAt": "2025-07-30T05:50:59.941Z",
+    "generatedAt": "2025-08-01T17:34:34.105Z",
     "totalWeeksAvailable": 1,
     "version": "1.0"
   }
