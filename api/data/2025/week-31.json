@@ -1,7 +1,7 @@
 {
   "id": "week-2025-31",
-  "weekStartDate": "2025-07-28T00:00:00.000Z",
-  "weekEndDate": "2025-08-03T00:00:00.000Z",
+  "weekStartDate": "2025-07-28T06:00:00.000Z",
+  "weekEndDate": "2025-08-03T06:00:00.000Z",
   "weekOf": "Semana del 28-28 jul",
   "year": 2025,
   "weekNumber": 31,
@@ -9,8 +9,8 @@
     {
       "type": "midweek",
       "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-07-30T05:40:43.190Z",
-      "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/7-30/",
+      "date": "2025-08-01T17:09:04.184Z",
+      "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/8-1/",
       "sections": [],
       "materials": {
         "videos": [],
@@ -34,13 +34,13 @@
         "songs": []
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-07-30T05:40:43.192Z"
+      "scrapedAt": "2025-08-01T17:09:04.185Z"
     },
     {
       "type": "weekend",
       "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-07-30T05:40:43.120Z",
-      "url": "https://www.jw.org/es/reuniones/fin-de-semana/2025/7-30/",
+      "date": "2025-08-01T17:09:04.144Z",
+      "url": "https://www.jw.org/es/reuniones/fin-de-semana/2025/8-1/",
       "sections": [],
       "materials": {
         "videos": [],
@@ -64,12 +64,12 @@
         "songs": []
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-07-30T05:40:43.123Z"
+      "scrapedAt": "2025-08-01T17:09:04.147Z"
     }
   ],
   "urls": {
-    "midweek": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/7-30/",
-    "weekend": "https://www.jw.org/es/reuniones/fin-de-semana/2025/7-30/",
+    "midweek": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/8-1/",
+    "weekend": "https://www.jw.org/es/reuniones/fin-de-semana/2025/8-1/",
     "workbook": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/",
     "meetings": "https://www.jw.org/es/reuniones/"
   },
@@ -79,7 +79,7 @@
     "totalDuration": 0
   },
   "metadata": {
-    "generatedAt": "2025-07-30T05:40:43.202Z",
+    "generatedAt": "2025-08-01T17:09:04.190Z",
     "weekNumber": 31,
     "year": 2025,
     "filename": "week-31.json",
