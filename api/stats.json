@@ -39,8 +39,8 @@
     }
   },
   "dateRange": {
-    "earliest": "2025-07-28T06:00:00.000Z",
-    "latest": "2025-07-28T06:00:00.000Z"
+    "earliest": "2025-07-28T00:00:00.000Z",
+    "latest": "2025-07-28T00:00:00.000Z"
   },
   "quality": {
     "weeksWithErrors": 1,
@@ -48,7 +48,7 @@
     "avgSectionsPerMeeting": 5
   },
   "meta": {
-    "generatedAt": "2025-08-02T20:46:32.787Z",
+    "generatedAt": "2025-08-02T20:53:26.419Z",
     "dataVersion": "1.0"
   }
 }

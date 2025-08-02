@@ -6,11 +6,29 @@ info:
     
     ## Features
     - Weekly meeting content in JSON format
-    - Multilingual support (currently Spanish)
+    - **Comprehensive multilingual support** (Spanish, English, Portuguese, French, German, Italian)
+    - Language-specific URLs and terminology based on real JW.org patterns
     - Media resources (videos, images, audio, songs)
     - Meeting sections and time management
     - Historical data access
     - Real-time statistics
+    - Language-specific API endpoints
+    
+    ## Supported Languages
+    - 🇪🇸 **Spanish (es)** - español
+    - 🇺🇸 **English (en)** - English  
+    - 🇧🇷 **Portuguese (pt)** - português
+    - 🇫🇷 **French (fr)** - français
+    - 🇩🇪 **German (de)** - deutsch
+    - 🇮🇹 **Italian (it)** - italiano
+    
+    ## Language Support
+    This API implements realistic language support based on actual JW.org patterns:
+    - Different URL paths per language (biblioteca vs library)
+    - Localized terminology and content structure
+    - Language-specific CSS selectors
+    - Proper fallback mechanisms
+    - Quality over quantity approach (6 well-supported languages vs 1000+ poorly supported)
     
     ## Rate Limiting
     This API is hosted on GitHub Pages and has no explicit rate limiting, but please be respectful with your usage.
@@ -52,7 +70,21 @@ paths:
       description: |
         Returns the most recent week's meeting content including both midweek and weekend meetings.
         This endpoint includes complete meeting details, materials, and metadata.
+        
+        **Language Support:**
+        - Without parameters: Returns latest week from all languages
+        - With lang parameter: Returns latest week for specific language
+        - Language-specific endpoints also available: `/latest-{lang}.json`
       operationId: getLatestWeek
+      parameters:
+        - name: lang
+          in: query
+          required: false
+          description: Language code to filter results (es, en, pt, fr, de, it)
+          schema:
+            type: string
+            enum: [es, en, pt, fr, de, it]
+            example: es
       responses:
         '200':
           description: Latest week data retrieved successfully
@@ -118,7 +150,21 @@ paths:
       description: |
         Returns a list of all available weeks with basic metadata. 
         Use this endpoint to discover available weeks and their data URLs.
+        
+        **Language Support:**
+        - Without parameters: Returns weeks from all languages
+        - With lang parameter: Returns weeks for specific language
+        - Language-specific endpoints also available: `/weeks-{lang}.json`
       operationId: getAllWeeks
+      parameters:
+        - name: lang
+          in: query
+          required: false
+          description: Language code to filter results (es, en, pt, fr, de, it)
+          schema:
+            type: string
+            enum: [es, en, pt, fr, de, it]
+            example: en
       responses:
         '200':
           description: List of available weeks retrieved successfully
@@ -285,6 +331,160 @@ paths:
                       cors: "enabled"
                       rateLimit: "none"
                       authentication: "none"
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /languages.json:
+    get:
+      tags:
+        - Metadata
+      summary: Get supported languages
+      description: |
+        Returns information about all supported languages including their configuration,
+        terminology, URL patterns, and available API endpoints.
+        
+        This endpoint provides the definitive list of supported languages and their
+        specific characteristics based on real JW.org implementation patterns.
+      operationId: getSupportedLanguages
+      responses:
+        '200':
+          description: Supported languages retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SupportedLanguages'
+              examples:
+                supported_languages:
+                  summary: Example supported languages response
+                  value:
+                    languages:
+                      - code: "es"
+                        name: "Spanish"
+                        nativeName: "Español"
+                        flag: "🇪🇸"
+                        isDefault: false
+                        terminology:
+                          workbookName: "Guía de actividades para la reunión Vida y Ministerio Cristiano"
+                          watchtowerName: "La Atalaya"
+                          meetingTypes:
+                            midweek: "Vida y Ministerio Cristiano"
+                            weekend: "Reunión de fin de semana"
+                        paths:
+                          workbook: "guia-actividades-reunion-testigos-jehova"
+                          watchtower: "biblioteca/revistas"
+                        apiEndpoints:
+                          latest: "./latest-es.json"
+                          weeks: "./weeks-es.json"
+                      - code: "en"
+                        name: "English"
+                        nativeName: "English"
+                        flag: "🇺🇸"
+                        isDefault: true
+                        terminology:
+                          workbookName: "Our Christian Life and Ministry Meeting Workbook"
+                          watchtowerName: "The Watchtower"
+                          meetingTypes:
+                            midweek: "Our Christian Life and Ministry"
+                            weekend: "Weekend Meeting"
+                        paths:
+                          workbook: "jw-meeting-workbook"
+                          watchtower: "library/magazines"
+                        apiEndpoints:
+                          latest: "./latest-en.json"
+                          weeks: "./weeks-en.json"
+                    meta:
+                      endpoint: "languages"
+                      description: "Supported languages and their configuration"
+                      generatedAt: "2025-08-02T12:00:00.000Z"
+                      totalLanguages: 6
+                      version: "1.0"
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /latest-{language}.json:
+    get:
+      tags:
+        - Weekly Data
+      summary: Get latest week data for specific language
+      description: |
+        Returns the most recent week's meeting content for a specific language.
+        This is equivalent to calling `/latest.json?lang={language}` but as a direct endpoint.
+      operationId: getLatestWeekByLanguage
+      parameters:
+        - name: language
+          in: path
+          required: true
+          description: Language code (es, en, pt, fr, de, it)
+          schema:
+            type: string
+            enum: [es, en, pt, fr, de, it]
+            example: es
+      responses:
+        '200':
+          description: Latest week data for language retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WeeklyMeeting'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '400':
+          description: Unsupported language
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /weeks-{language}.json:
+    get:
+      tags:
+        - Weekly Data
+      summary: Get all weeks for specific language
+      description: |
+        Returns all available weeks for a specific language.
+        This is equivalent to calling `/weeks.json?lang={language}` but as a direct endpoint.
+      operationId: getAllWeeksByLanguage
+      parameters:
+        - name: language
+          in: path
+          required: true
+          description: Language code (es, en, pt, fr, de, it)
+          schema:
+            type: string
+            enum: [es, en, pt, fr, de, it]
+            example: en
+      responses:
+        '200':
+          description: All weeks for language retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  weeks:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/WeekSummary'
+                  meta:
+                    allOf:
+                      - $ref: '#/components/schemas/EndpointMeta'
+                      - type: object
+                        properties:
+                          language:
+                            type: string
+                            example: en
+                          totalWeeks:
+                            type: integer
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '400':
+          description: Unsupported language
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
         '500':
           $ref: '#/components/responses/InternalServerError'
 
@@ -788,8 +988,22 @@ components:
           example: "1.0"
         language:
           type: string
-          description: Content language
+          description: Content language code
+          enum: [es, en, pt, fr, de, it]
           example: "es"
+        languageConfig:
+          type: object
+          description: Language-specific configuration
+          properties:
+            name:
+              type: string
+              example: "Spanish"
+            nativeName:
+              type: string
+              example: "Español"
+            flag:
+              type: string
+              example: "🇪🇸"
 
     SourceUrls:
       type: object
@@ -1168,6 +1382,114 @@ components:
           type: string
           description: API version
           example: "1.0"
+
+    SupportedLanguages:
+      type: object
+      description: Complete list of supported languages with their configuration
+      required:
+        - languages
+        - meta
+      properties:
+        languages:
+          type: array
+          description: Array of supported language configurations
+          items:
+            $ref: '#/components/schemas/LanguageConfig'
+        meta:
+          $ref: '#/components/schemas/EndpointMeta'
+
+    LanguageConfig:
+      type: object
+      description: Configuration for a specific language
+      required:
+        - code
+        - name
+        - nativeName
+        - flag
+        - isDefault
+        - terminology
+        - paths
+        - apiEndpoints
+      properties:
+        code:
+          type: string
+          description: ISO 639-1 language code
+          enum: [es, en, pt, fr, de, it]
+          example: es
+        name:
+          type: string
+          description: Language name in English
+          example: Spanish
+        nativeName:
+          type: string
+          description: Language name in native language
+          example: Español
+        flag:
+          type: string
+          description: Unicode flag emoji
+          example: 🇪🇸
+        isDefault:
+          type: boolean
+          description: Whether this is the default language
+          example: false
+        terminology:
+          type: object
+          description: Language-specific terminology
+          required:
+            - workbookName
+            - watchtowerName
+            - meetingTypes
+          properties:
+            workbookName:
+              type: string
+              description: Name of the meeting workbook in this language
+              example: "Guía de actividades para la reunión Vida y Ministerio Cristiano"
+            watchtowerName:
+              type: string
+              description: Name of the Watchtower magazine in this language
+              example: "La Atalaya"
+            meetingTypes:
+              type: object
+              required:
+                - midweek
+                - weekend
+              properties:
+                midweek:
+                  type: string
+                  example: "Vida y Ministerio Cristiano"
+                weekend:
+                  type: string
+                  example: "Reunión de fin de semana"
+        paths:
+          type: object
+          description: URL path components for this language
+          required:
+            - workbook
+            - watchtower
+          properties:
+            workbook:
+              type: string
+              description: URL path component for workbook content
+              example: "guia-actividades-reunion-testigos-jehova"
+            watchtower:
+              type: string
+              description: URL path component for watchtower content
+              example: "biblioteca/revistas"
+        apiEndpoints:
+          type: object
+          description: Language-specific API endpoints
+          required:
+            - latest
+            - weeks
+          properties:
+            latest:
+              type: string
+              description: Latest week endpoint for this language
+              example: "./latest-es.json"
+            weeks:
+              type: string
+              description: All weeks endpoint for this language
+              example: "./weeks-es.json"
 
     Error:
       type: object

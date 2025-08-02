@@ -3,7 +3,7 @@
     "name": "JW.org Meeting Content API",
     "description": "API automatizada para contenido semanal de reuniones de Testigos de Jehová",
     "version": "1.0",
-    "generatedAt": "2025-08-02T20:46:32.786Z",
+    "generatedAt": "2025-08-02T20:53:26.418Z",
     "supportedLanguages": [
       "es",
       "en",
@@ -54,7 +54,7 @@
     "totalMeetings": 2,
     "totalMaterials": 13,
     "averageDuration": 0,
-    "lastUpdate": "2025-08-02T20:23:28.393Z"
+    "lastUpdate": "2025-08-02T20:53:25.268Z"
   },
   "usage": {
     "examples": [
