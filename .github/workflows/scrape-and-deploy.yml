@@ -1,0 +1,57 @@
+name: Scrape JW.org Content and Deploy API
+
+on:
+  schedule:
+    # Ejecutar todos los días a las 6:00 AM UTC (2:00 AM México)
+    - cron: '0 6 * * *'
+  # Permitir ejecución manual
+  workflow_dispatch:
+  # Ejecutar cuando se hace push a main
+  push:
+    branches: [ main ]
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Run scraper with force flag
+      run: npm run scrape -- --force
+      
+    - name: Generate API endpoints
+      run: npm run generate-api
+      
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+    - name: Commit and push changes
+      run: |
+        git add .
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto-update: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+        fi
+        
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./api
+        publish_branch: gh-pages
+        force_orphan: true
