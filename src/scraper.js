@@ -77,17 +77,54 @@ function getTargetWeekDate() {
 }
 
 /**
- * Generar URLs de JW.org para scraping
+ * Obtener período bimestral para URLs de reuniones de entre semana
+ */
+function getBimonthlyPeriod(date) {
+  const month = date.getMonth();
+  const year = date.getFullYear();
+  const periods = {
+    0: 'enero-febrero', 1: 'enero-febrero',
+    2: 'marzo-abril', 3: 'marzo-abril', 
+    4: 'mayo-junio', 5: 'mayo-junio',
+    6: 'julio-agosto', 7: 'julio-agosto',
+    8: 'septiembre-octubre', 9: 'septiembre-octubre',
+    10: 'noviembre-diciembre', 11: 'noviembre-diciembre'
+  };
+  return `${periods[month]}-${year}`;
+}
+
+/**
+ * Obtener mes de Atalaya para reuniones de fin de semana (con retraso de 1 mes)
+ */
+function getWatchtowerMonth(date) {
+  const months = [
+    'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'
+  ];
+  
+  let month = date.getMonth() - 1; // Retraso de 1 mes
+  let year = date.getFullYear();
+  
+  if (month < 0) {
+    month = 11;
+    year -= 1;
+  }
+  
+  return `atalaya-estudio-${months[month]}-${year}`;
+}
+
+/**
+ * Generar URLs de JW.org para scraping con patrones correctos
  */
 function generateUrls(weekDate) {
   const year = weekDate.getFullYear();
-  const weekNumber = getWeekNumber(weekDate);
-  const monthDay = format(weekDate, 'M-d', { locale: es });
+  const bimonthlyPeriod = getBimonthlyPeriod(weekDate);
+  const watchtowerMonth = getWatchtowerMonth(weekDate);
   
   return {
-    midweek: `${CONFIG.baseUrl}/${CONFIG.language}/biblioteca/jw-cuaderno-de-reuniones/${year}/${monthDay}/`,
-    weekend: `${CONFIG.baseUrl}/${CONFIG.language}/reuniones/fin-de-semana/${year}/${monthDay}/`,
-    // URLs alternativas por si las principales fallan
+    midweek: `${CONFIG.baseUrl}/${CONFIG.language}/biblioteca/jw-cuaderno-de-reuniones/${bimonthlyPeriod}-mwb/`,
+    weekend: `${CONFIG.baseUrl}/${CONFIG.language}/biblioteca/watchtower/${watchtowerMonth}/`,
+    // URLs alternativas para búsqueda dinámica
     workbook: `${CONFIG.baseUrl}/${CONFIG.language}/biblioteca/jw-cuaderno-de-reuniones/${year}/`,
     meetings: `${CONFIG.baseUrl}/${CONFIG.language}/reuniones/`
   };
@@ -382,7 +419,7 @@ function extractSectionMaterials($section) {
 }
 
 /**
- * Extraer todos los materiales de la página
+ * Extraer todos los materiales de la página con URLs de CDN reales
  */
 function extractMaterials($) {
   const materials = {
@@ -392,42 +429,71 @@ function extractMaterials($) {
     songs: []
   };
   
-  // Videos globales
-  $('a[href*="mediaitems"], a[href*="/v/"]').each((i, link) => {
-    const $link = $(link);
-    materials.videos.push({
-      id: `video-${i + 1}`,
-      title: $link.text().trim() || `Video ${i + 1}`,
-      url: makeAbsoluteUrl($link.attr('href')),
-      thumbnail: makeAbsoluteUrl($link.find('img').attr('src')),
-      duration: extractDuration($link.text()),
-      format: 'mp4'
-    });
+  // Videos con múltiples calidades desde CDN
+  $('a[href*="mediaitems"], a[href*="/v/"], [data-video]').each((i, element) => {
+    const $element = $(element);
+    const videoUrl = $element.attr('href') || $element.attr('data-video');
+    
+    if (videoUrl && videoUrl.includes('mediaitems')) {
+      materials.videos.push({
+        id: `video-${i + 1}`,
+        title: $element.text().trim() || $element.attr('title') || `Video ${i + 1}`,
+        downloadUrl: videoUrl,
+        thumbnail: makeAbsoluteUrl($element.find('img').attr('src')),
+        qualities: {
+          '720p': videoUrl.replace('.mp4', '_720p.mp4'),
+          '480p': videoUrl.replace('.mp4', '_480p.mp4'),
+          '240p': videoUrl.replace('.mp4', '_240p.mp4')
+        },
+        duration: extractDuration($element.text()),
+        format: 'mp4'
+      });
+    }
   });
   
-  // Imágenes globales
-  $('img[src*="images"]').each((i, img) => {
+  // Imágenes con múltiples tamaños desde CDN
+  $('img[src*="cms-imgp.jw-cdn.org"], img[src*="images"]').each((i, img) => {
     const $img = $(img);
-    materials.images.push({
-      id: `image-${i + 1}`,
-      title: $img.attr('alt') || `Imagen ${i + 1}`,
-      url: makeAbsoluteUrl($img.attr('src')),
-      thumbnail: makeAbsoluteUrl($img.attr('src')),
-      format: getImageFormat($img.attr('src'))
-    });
+    const srcUrl = $img.attr('src');
+    
+    if (srcUrl && srcUrl.includes('cms-imgp.jw-cdn.org')) {
+      materials.images.push({
+        id: `image-${i + 1}`,
+        title: $img.attr('alt') || `Imagen ${i + 1}`,
+        downloadUrl: makeAbsoluteUrl(srcUrl),
+        sizes: {
+          large: srcUrl.replace(/_(\d+)x(\d+)/, '_1920x1080'),
+          medium: srcUrl.replace(/_(\d+)x(\d+)/, '_800x600'),
+          small: srcUrl.replace(/_(\d+)x(\d+)/, '_400x300')
+        },
+        format: getImageFormat(srcUrl)
+      });
+    } else if (srcUrl) {
+      // Para imágenes que no son del CDN pero son válidas
+      materials.images.push({
+        id: `image-${i + 1}`,
+        title: $img.attr('alt') || `Imagen ${i + 1}`,
+        downloadUrl: makeAbsoluteUrl(srcUrl),
+        format: getImageFormat(srcUrl)
+      });
+    }
   });
   
-  // Cánticos
-  $('.song strong, .songNumbers').each((i, song) => {
-    const $song = $(song);
-    const songNumber = extractSongNumber($song.text());
+  // Cánticos con recursos completos
+  $('.song strong, .songNumbers, [data-song]').each((i, element) => {
+    const $element = $(element);
+    const songNumber = extractSongNumber($element.text());
+    
     if (songNumber) {
       materials.songs.push({
         id: `song-${songNumber}`,
         number: songNumber,
-        title: $song.closest('.song').text().trim() || `Cántico ${songNumber}`,
-        videoUrl: `${CONFIG.baseUrl}/${CONFIG.language}/biblioteca/musica-cantemos/canticos/cantico-${songNumber}/`,
-        audioUrl: null
+        title: $element.closest('.song').text().trim() || `Cántico ${songNumber}`,
+        resources: {
+          video: `https://download-a.akamaihd.net/files/media_music/ac/${songNumber.toString().padStart(3, '0')}_V.mp4`,
+          audio: `https://download-a.akamaihd.net/files/media_music/ac/${songNumber.toString().padStart(3, '0')}_A.mp3`,
+          sheet: `${CONFIG.baseUrl}/${CONFIG.language}/biblioteca/musica-cantemos/canticos/cantico-${songNumber}/`
+        }
       });
     }
   });
