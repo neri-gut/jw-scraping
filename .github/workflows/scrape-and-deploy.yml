@@ -35,8 +35,17 @@ jobs:
     - name: Run scraper with force flag
       run: npm run scrape -- --force
       
+    - name: Validate OpenAPI specification
+      run: npm run validate-openapi
+
     - name: Generate API endpoints
       run: npm run generate-api
+
+    - name: Generate API clients
+      run: npm run generate-clients
+
+    - name: Copy OpenAPI spec to API directory
+      run: cp openapi.yaml api/openapi.yaml
       
     - name: Configure Git
       run: |

@@ -1,0 +1,24 @@
+{
+  "languages": {
+    "supported": [
+      "es",
+      "en",
+      "pt",
+      "fr",
+      "de",
+      "it"
+    ],
+    "total": 6,
+    "endpoint": "/languages.json"
+  },
+  "endpoints": {
+    "languages": {
+      "url": "/languages.json",
+      "description": "Lista de idiomas soportados",
+      "method": "GET",
+      "parameters": {
+        "none": "Este endpoint no requiere parámetros"
+      }
+    }
+  }
+}

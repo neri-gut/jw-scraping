@@ -6,6 +6,7 @@ import chalk from 'chalk';
 import ora from 'ora';
 import { format, parseISO } from 'date-fns';
 import { es } from 'date-fns/locale';
+import { getSupportedLanguages, getLanguageConfig, isLanguageSupported } from './language-config.js';
 
 const API_CONFIG = {
   outputDir: process.env.API_OUTPUT_DIR || './api',
@@ -14,40 +15,57 @@ const API_CONFIG = {
     latest: 'latest.json',
     weeks: 'weeks.json',
     index: 'index.json',
-    stats: 'stats.json'
+    stats: 'stats.json',
+    languages: 'languages.json'
   }
 };
 
 /**
- * Generar endpoint de la semana más reciente
+ * Generate latest endpoint with language filtering
  */
-async function generateLatestEndpoint(allWeeksData) {
+async function generateLatestEndpoint(allWeeksData, language = null) {
   const spinner = ora('Generando endpoint latest.json').start();
   
   try {
-    // Encontrar la semana más reciente
-    const sortedWeeks = allWeeksData.sort((a, b) => 
+    // Filter by language if specified
+    let filteredWeeks = allWeeksData;
+    if (language) {
+      filteredWeeks = allWeeksData.filter(week => 
+        week.metadata?.language === language ||
+        week.meetings?.some(meeting => meeting.language === language)
+      );
+    }
+    
+    // Find most recent week
+    const sortedWeeks = filteredWeeks.sort((a, b) => 
       new Date(b.weekStartDate) - new Date(a.weekStartDate)
     );
     
     const latestWeek = sortedWeeks[0];
     
     if (!latestWeek) {
-      throw new Error('No hay datos de semanas disponibles');
+      const errorMsg = language ? 
+        `No data available for language: ${language}` :
+        'No week data available';
+      throw new Error(errorMsg);
     }
     
     const latestData = {
       ...latestWeek,
       meta: {
         endpoint: 'latest',
-        description: 'Datos de la semana más reciente',
+        description: language ? 
+          `Latest week data for ${language}` : 
+          'Latest week data (all languages)',
         generatedAt: new Date().toISOString(),
-        totalWeeksAvailable: allWeeksData.length,
+        totalWeeksAvailable: filteredWeeks.length,
+        language: language || 'multi',
         version: '1.0'
       }
     };
     
-    const outputPath = path.join(API_CONFIG.outputDir, API_CONFIG.endpoints.latest);
+    const filename = language ? `latest-${language}.json` : API_CONFIG.endpoints.latest;
+    const outputPath = path.join(API_CONFIG.outputDir, filename);
     await fs.writeJson(outputPath, latestData, { spaces: 2 });
     
     spinner.succeed(`✅ latest.json generado (${latestWeek.weekOf})`);
@@ -60,14 +78,23 @@ async function generateLatestEndpoint(allWeeksData) {
 }
 
 /**
- * Generar endpoint con lista de todas las semanas
+ * Generate weeks endpoint with language filtering
  */
-async function generateWeeksEndpoint(allWeeksData) {
+async function generateWeeksEndpoint(allWeeksData, language = null) {
   const spinner = ora('Generando endpoint weeks.json').start();
   
   try {
-    // Crear resumen de cada semana
-    const weeksSummary = allWeeksData.map(week => ({
+    // Filter by language if specified
+    let filteredWeeks = allWeeksData;
+    if (language) {
+      filteredWeeks = allWeeksData.filter(week => 
+        week.metadata?.language === language ||
+        week.meetings?.some(meeting => meeting.language === language)
+      );
+    }
+    
+    // Create summary for each week
+    const weeksSummary = filteredWeeks.map(week => ({
       id: week.id,
       weekOf: week.weekOf,
       weekStartDate: week.weekStartDate,
@@ -88,9 +115,12 @@ async function generateWeeksEndpoint(allWeeksData) {
       weeks: weeksSummary,
       meta: {
         endpoint: 'weeks',
-        description: 'Lista de todas las semanas disponibles',
+        description: language ? 
+          `All weeks for ${language}` : 
+          'All available weeks (all languages)',
         generatedAt: new Date().toISOString(),
         totalWeeks: weeksSummary.length,
+        language: language || 'multi',
         dateRange: {
           earliest: weeksSummary[weeksSummary.length - 1]?.weekStartDate,
           latest: weeksSummary[0]?.weekStartDate
@@ -99,10 +129,11 @@ async function generateWeeksEndpoint(allWeeksData) {
       }
     };
     
-    const outputPath = path.join(API_CONFIG.outputDir, API_CONFIG.endpoints.weeks);
+    const filename = language ? `weeks-${language}.json` : API_CONFIG.endpoints.weeks;
+    const outputPath = path.join(API_CONFIG.outputDir, filename);
     await fs.writeJson(outputPath, weeksData, { spaces: 2 });
     
-    spinner.succeed(`✅ weeks.json generado (${weeksSummary.length} semanas)`);
+    spinner.succeed(`✅ ${filename} generated (${weeksSummary.length} weeks)`);
     return outputPath;
     
   } catch (error) {
@@ -112,7 +143,7 @@ async function generateWeeksEndpoint(allWeeksData) {
 }
 
 /**
- * Generar endpoint de índice principal
+ * Generate main index endpoint
  */
 async function generateIndexEndpoint(allWeeksData) {
   const spinner = ora('Generando endpoint index.json').start();
@@ -124,19 +155,23 @@ async function generateIndexEndpoint(allWeeksData) {
         description: 'API automatizada para contenido semanal de reuniones de Testigos de Jehová',
         version: '1.0',
         generatedAt: new Date().toISOString(),
-        language: 'es',
+        supportedLanguages: getSupportedLanguages().map(l => l.code),
+        defaultLanguage: 'en',
+        multiLanguage: true,
         baseUrl: 'https://tu-usuario.github.io/jw-scraping'
       },
       endpoints: {
         latest: {
           url: './latest.json',
-          description: 'Datos de la semana más reciente',
-          cache: '1 hour'
+          description: 'Latest week data (all languages)',
+          cache: '1 hour',
+          languageSpecific: './latest-{lang}.json'
         },
         weeks: {
           url: './weeks.json',
-          description: 'Lista de todas las semanas disponibles',
-          cache: '6 hours'
+          description: 'All available weeks (all languages)',
+          cache: '6 hours',
+          languageSpecific: './weeks-{lang}.json'
         },
         weekData: {
           url: './data/{year}/week-{weekNumber}.json',
@@ -149,7 +184,12 @@ async function generateIndexEndpoint(allWeeksData) {
         },
         stats: {
           url: './stats.json',
-          description: 'Estadísticas generales de la API',
+          description: 'General API statistics',
+          cache: '24 hours'
+        },
+        languages: {
+          url: './languages.json',
+          description: 'Supported languages and their configuration',
           cache: '24 hours'
         }
       },
@@ -166,16 +206,24 @@ async function generateIndexEndpoint(allWeeksData) {
       usage: {
         examples: [
           {
-            description: 'Obtener la semana más reciente',
+            description: 'Get latest week (all languages)',
             url: './latest.json'
           },
           {
-            description: 'Obtener lista de semanas',
-            url: './weeks.json'
+            description: 'Get latest week for Spanish',
+            url: './latest.json?lang=es'
           },
           {
-            description: 'Obtener semana específica',
+            description: 'Get all weeks for English',
+            url: './weeks.json?lang=en'
+          },
+          {
+            description: 'Get specific week',
             url: './data/2025/week-03.json'
+          },
+          {
+            description: 'Get supported languages',
+            url: './languages.json'
           }
         ],
         cors: 'enabled',
@@ -197,7 +245,7 @@ async function generateIndexEndpoint(allWeeksData) {
 }
 
 /**
- * Generar endpoint de estadísticas
+ * Generate statistics endpoint with language breakdown
  */
 async function generateStatsEndpoint(allWeeksData) {
   const spinner = ora('Generando endpoint stats.json').start();
@@ -223,6 +271,7 @@ async function generateStatsEndpoint(allWeeksData) {
         songs: 0
       },
       byYear: {},
+      byLanguage: {},
       dateRange: {
         earliest: null,
         latest: null
@@ -238,8 +287,13 @@ async function generateStatsEndpoint(allWeeksData) {
       }
     };
     
-    // Procesar cada semana
+    // Process each week
     allWeeksData.forEach(week => {
+      const weekLang = week.metadata?.language || 'unknown';
+      if (!stats.byLanguage[weekLang]) {
+        stats.byLanguage[weekLang] = { weeks: 0, meetings: 0, materials: 0 };
+      }
+      stats.byLanguage[weekLang].weeks++;
       const year = week.year.toString();
       if (!stats.byYear[year]) {
         stats.byYear[year] = { weeks: 0, meetings: 0, materials: 0 };
@@ -259,6 +313,7 @@ async function generateStatsEndpoint(allWeeksData) {
         week.meetings.forEach(meeting => {
           stats.overview.totalMeetings++;
           stats.byYear[year].meetings++;
+          stats.byLanguage[weekLang].meetings++;
           
           if (meeting.type === 'midweek' || meeting.type === 'weekend') {
             stats.byMeetingType[meeting.type].count++;
@@ -275,6 +330,7 @@ async function generateStatsEndpoint(allWeeksData) {
               stats.byMaterialType[type] += count;
               stats.overview.totalMaterials += count;
               stats.byYear[year].materials += count;
+              stats.byLanguage[weekLang].materials += count;
             });
           }
         });
@@ -393,7 +449,58 @@ async function loadAllWeekData() {
 }
 
 /**
- * Función principal
+ * Generate languages endpoint
+ */
+async function generateLanguagesEndpoint() {
+  const spinner = ora('Generating languages.json').start();
+  
+  try {
+    const supportedLanguages = getSupportedLanguages();
+    
+    const languagesData = {
+      languages: supportedLanguages.map(lang => ({
+        code: lang.code,
+        name: lang.name,
+        nativeName: lang.nativeName,
+        flag: lang.flag,
+        isDefault: lang.isDefault || false,
+        terminology: {
+          workbookName: lang.terminology.workbookName,
+          watchtowerName: lang.terminology.watchtowerName,
+          meetingTypes: lang.terminology.meetingTypes
+        },
+        paths: {
+          workbook: lang.paths.workbook,
+          watchtower: lang.paths.watchtower
+        },
+        apiEndpoints: {
+          latest: `./latest-${lang.code}.json`,
+          weeks: `./weeks-${lang.code}.json`
+        }
+      })),
+      meta: {
+        endpoint: 'languages',
+        description: 'Supported languages and their configuration',
+        generatedAt: new Date().toISOString(),
+        totalLanguages: supportedLanguages.length,
+        version: '1.0'
+      }
+    };
+    
+    const outputPath = path.join(API_CONFIG.outputDir, API_CONFIG.endpoints.languages);
+    await fs.writeJson(outputPath, languagesData, { spaces: 2 });
+    
+    spinner.succeed('✅ languages.json generated');
+    return outputPath;
+    
+  } catch (error) {
+    spinner.fail(`❌ Error generating languages.json: ${error.message}`);
+    throw error;
+  }
+}
+
+/**
+ * Main function
  */
 async function main() {
   console.log(chalk.blue('🏗️  Generando endpoints de API...'));
@@ -409,14 +516,33 @@ async function main() {
       throw new Error('No se encontraron datos de semanas para generar la API');
     }
     
-    // Generar todos los endpoints
-    const results = await Promise.all([
+    // Generate main endpoints (all languages)
+    const mainResults = await Promise.all([
       generateLatestEndpoint(allWeeksData),
       generateWeeksEndpoint(allWeeksData),
       generateIndexEndpoint(allWeeksData),
       generateStatsEndpoint(allWeeksData),
+      generateLanguagesEndpoint(),
       copyDataFiles()
     ]);
+    
+    // Generate language-specific endpoints
+    const supportedLanguages = getSupportedLanguages();
+    const languageResults = [];
+    
+    for (const lang of supportedLanguages) {
+      try {
+        const langResults = await Promise.all([
+          generateLatestEndpoint(allWeeksData, lang.code),
+          generateWeeksEndpoint(allWeeksData, lang.code)
+        ]);
+        languageResults.push(...langResults);
+      } catch (error) {
+        console.warn(chalk.yellow(`⚠️  Could not generate endpoints for ${lang.code}: ${error.message}`));
+      }
+    }
+    
+    const results = [...mainResults, ...languageResults];
     
     console.log(chalk.green('\n🎉 API generada exitosamente!'));
     console.log(chalk.blue('📁 Archivos generados:'));
@@ -426,12 +552,19 @@ async function main() {
       }
     });
     
-    console.log(chalk.blue('\n🔗 Endpoints disponibles:'));
-    console.log(chalk.gray('  • /index.json - Información general de la API'));
-    console.log(chalk.gray('  • /latest.json - Semana más reciente'));
-    console.log(chalk.gray('  • /weeks.json - Lista de todas las semanas'));
-    console.log(chalk.gray('  • /stats.json - Estadísticas generales'));
-    console.log(chalk.gray('  • /data/{year}/week-{num}.json - Datos específicos'));
+    console.log(chalk.blue('\n🔗 Available endpoints:'));
+    console.log(chalk.gray('  • /index.json - General API information'));
+    console.log(chalk.gray('  • /latest.json - Latest week (all languages)'));
+    console.log(chalk.gray('  • /latest-{lang}.json - Latest week for specific language'));
+    console.log(chalk.gray('  • /weeks.json - All weeks (all languages)'));
+    console.log(chalk.gray('  • /weeks-{lang}.json - All weeks for specific language'));
+    console.log(chalk.gray('  • /languages.json - Supported languages'));
+    console.log(chalk.gray('  • /stats.json - General statistics'));
+    console.log(chalk.gray('  • /data/{year}/week-{num}.json - Specific week data'));
+    console.log(chalk.blue('\n🌐 Supported languages:'));
+    supportedLanguages.forEach(lang => {
+      console.log(chalk.gray(`  • ${lang.flag} ${lang.code} - ${lang.name} (${lang.nativeName})`));
+    });
     
   } catch (error) {
     console.error(chalk.red('❌ Error generando API:'), error);
@@ -444,4 +577,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   main().catch(console.error);
 }
 
-export { generateLatestEndpoint, generateWeeksEndpoint, generateIndexEndpoint, generateStatsEndpoint };
+export { 
+  generateLatestEndpoint, 
+  generateWeeksEndpoint, 
+  generateIndexEndpoint, 
+  generateStatsEndpoint, 
+  generateLanguagesEndpoint 
+};

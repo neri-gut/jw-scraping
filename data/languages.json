@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "total": 6,
+    "lastUpdated": "2025-08-02T20:02:58.821Z",
+    "description": "Idiomas soportados con contenido completo de reuniones JW",
+    "note": "Basado en investigación real de patrones de URL de JW.org"
+  },
+  "supported": [
+    {
+      "code": "es",
+      "name": "Spanish",
+      "nativeName": "Español",
+      "region": "Global",
+      "hasFullContent": true,
+      "sampleUrls": {
+        "workbook": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/",
+        "watchtower": "https://www.jw.org/es/revistas/atalaya-estudio-julio-2025/"
+      }
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "region": "Global",
+      "hasFullContent": true,
+      "sampleUrls": {
+        "workbook": "https://www.jw.org/en/library/jw-meeting-workbook/",
+        "watchtower": "https://www.jw.org/en/library/magazines/watchtower-study-julio-2025/"
+      }
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese (Brazil)",
+      "nativeName": "Português (Brasil)",
+      "region": "Latin America",
+      "hasFullContent": true,
+      "sampleUrls": {
+        "workbook": "https://www.jw.org/pt/biblioteca/apostila-reuniao-vida-ministerio-cristao/",
+        "watchtower": "https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-julio-2025/"
+      }
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "nativeName": "Français",
+      "region": "Europe",
+      "hasFullContent": true,
+      "sampleUrls": {
+        "workbook": "https://www.jw.org/fr/bibliotheque/cahier-reunion-vie-ministere-chretien/",
+        "watchtower": "https://www.jw.org/fr/bibliotheque/revues/tour-garde-etude-julio-2025/"
+      }
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "region": "Europe",
+      "hasFullContent": true,
+      "sampleUrls": {
+        "workbook": "https://www.jw.org/de/bibliothek/arbeitsheft-leben-dienst-als-christ/",
+        "watchtower": "https://www.jw.org/de/bibliothek/zeitschriften/wachtturm-studium-julio-2025/"
+      }
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "nativeName": "Italiano",
+      "region": "Europe",
+      "hasFullContent": true,
+      "sampleUrls": {
+        "workbook": "https://www.jw.org/it/biblioteca/quaderno-vita-ministero-cristiano/",
+        "watchtower": "https://www.jw.org/it/biblioteca/riviste/torre-guardia-studio-julio-2025/"
+      }
+    }
+  ],
+  "defaultLanguage": "es",
+  "fallbackLanguage": "en"
+}

@@ -59,8 +59,17 @@ jobs:
     - name: ✅ Validate content
       run: npm run validate
 
+    - name: 🔍 Validate OpenAPI specification
+      run: npm run validate-openapi
+
     - name: 📊 Generate API
       run: npm run generate-api
+
+    - name: 🔧 Generate API clients
+      run: npm run generate-clients
+
+    - name: 📝 Copy OpenAPI spec to API directory
+      run: cp openapi.yaml api/openapi.yaml
 
     - name: 🚀 Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3

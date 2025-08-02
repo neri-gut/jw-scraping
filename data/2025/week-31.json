@@ -8,166 +8,315 @@
   "meetings": [
     {
       "type": "midweek",
-      "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-08-02T00:33:37.595Z",
-      "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/julio-agosto-2025-mwb/",
+      "title": "Reunión midweek",
+      "date": null,
+      "url": "https://www.jw.org/en/biblioteca/library/our-christian-life-and-ministry-meeting-workbook/july-august-2025-mwb/",
       "sections": [],
       "materials": {
         "videos": [],
-        "images": [
-          {
-            "id": "image-1",
-            "title": "Imagen 1",
-            "downloadUrl": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print.png",
-            "format": "png"
-          },
-          {
-            "id": "image-2",
-            "title": "Imagen 2",
-            "downloadUrl": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print-rtl.png",
-            "format": "png"
-          },
-          {
-            "id": "image-3",
-            "title": "Imagen 3",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
-            "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg"
-            },
-            "format": "jpg"
-          },
-          {
-            "id": "image-4",
-            "title": "Imagen 4",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
-            "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg"
-            },
-            "format": "jpg"
-          },
-          {
-            "id": "image-5",
-            "title": "Imagen 5",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
-            "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg"
-            },
-            "format": "jpg"
-          },
-          {
-            "id": "image-6",
-            "title": "Una pareja de testigos de Jehová le ofrece un folleto a una mujer en la puerta de su casa.",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
-            "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg"
-            },
-            "format": "jpg"
-          }
-        ],
+        "images": [],
         "audio": [],
         "songs": []
       },
-      "totalDuration": 0,
-      "scrapedAt": "2025-08-02T00:33:37.596Z"
+      "error": "No se pudo cargar ninguna URL para midweek. URLs intentadas: https://www.jw.org/en/biblioteca/library/our-christian-life-and-ministry-meeting-workbook/july-august-2025-mwb/, https://www.jw.org/en/biblioteca/library/our-christian-life-and-ministry-meeting-workbook/",
+      "urlsAttempted": [
+        "https://www.jw.org/en/biblioteca/library/our-christian-life-and-ministry-meeting-workbook/july-august-2025-mwb/",
+        "https://www.jw.org/en/biblioteca/library/our-christian-life-and-ministry-meeting-workbook/"
+      ],
+      "scrapedAt": "2025-08-02T19:06:25.228Z"
     },
     {
       "type": "weekend",
-      "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-08-02T00:33:37.568Z",
-      "url": "https://www.jw.org/es/biblioteca/watchtower/atalaya-estudio-julio-2025/",
-      "sections": [],
+      "title": "Jehovah’s Witnesses",
+      "date": "2025-08-02T19:06:20.506Z",
+      "url": "https://www.jw.org/en/library/magazines/watchtower-study-july-2025/",
+      "sections": [
+        {
+          "id": "section-1",
+          "order": 1,
+          "title": "Privacy Settings",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-2",
+          "order": 2,
+          "title": "Jehovah’s Witnesses",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-3",
+          "order": 3,
+          "title": "THE WATCHTOWER—STUDY EDITION\n                  July 2025",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-4",
+          "order": 4,
+          "title": "Why Seek Advice?",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-5",
+          "order": 5,
+          "title": "How to Give Advice",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-6",
+          "order": 6,
+          "title": "Can You Still Learn From Basic Bible Teachings?",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-7",
+          "order": 7,
+          "title": "Have You “Learned the Secret” of Contentment?",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-8",
+          "order": 8,
+          "title": "“The Battle Belongs to Jehovah”",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-9",
+          "order": 9,
+          "title": "Did You Know?",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-10",
+          "order": 10,
+          "title": "Study to Share",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        }
+      ],
       "materials": {
         "videos": [],
         "images": [
           {
-            "id": "image-1",
-            "title": "Imagen 1",
-            "downloadUrl": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print.png",
-            "format": "png"
-          },
-          {
-            "id": "image-2",
-            "title": "Imagen 2",
-            "downloadUrl": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print-rtl.png",
-            "format": "png"
-          },
-          {
             "id": "image-3",
-            "title": "Imagen 3",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
+            "title": "King David listening attentively to Abigail, who is sitting on the ground pleading with him. David’s men observe nearby.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/2025484/univ/art/2025484_univ_lsr_lg.jpg",
+            "format": "jpg",
             "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg"
-            },
-            "format": "jpg"
+              "large": "https://cms-imgp.jw-cdn.org/img/p/2025484/univ/art/2025484_univ_lsr_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/2025484/univ/art/2025484_univ_lsr_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/2025484/univ/art/2025484_univ_lsr_lg.jpg"
+            }
           },
           {
             "id": "image-4",
-            "title": "Imagen 4",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
+            "title": "David listening attentively to Abigail, who is sitting on the ground pleading with him.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/2025480/univ/art/2025480_univ_sqs_lg.jpg",
+            "format": "jpg",
             "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg"
-            },
-            "format": "jpg"
+              "large": "https://cms-imgp.jw-cdn.org/img/p/2025480/univ/art/2025480_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/2025480/univ/art/2025480_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/2025480/univ/art/2025480_univ_sqs_lg.jpg"
+            }
           },
           {
             "id": "image-5",
-            "title": "Imagen 5",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
+            "title": "Elihu listening empathetically to Job, who is covered in boils.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/2025481/univ/art/2025481_univ_sqs_lg.jpg",
+            "format": "jpg",
             "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg"
-            },
-            "format": "jpg"
+              "large": "https://cms-imgp.jw-cdn.org/img/p/2025481/univ/art/2025481_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/2025481/univ/art/2025481_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/2025481/univ/art/2025481_univ_sqs_lg.jpg"
+            }
           },
           {
             "id": "image-6",
-            "title": "Una pareja de testigos de Jehová le ofrece un folleto a una mujer en la puerta de su casa.",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
+            "title": "A brother looking up at a starry night sky and meditating.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/2025486/univ/art/2025486_univ_sqs_lg.jpg",
+            "format": "jpg",
             "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg"
-            },
-            "format": "jpg"
+              "large": "https://cms-imgp.jw-cdn.org/img/p/2025486/univ/art/2025486_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/2025486/univ/art/2025486_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/2025486/univ/art/2025486_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-7",
+            "title": "Some Israelites expressing to Moses their dissatisfaction about the manna they are gathering.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/2025487/univ/art/2025487_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/2025487/univ/art/2025487_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/2025487/univ/art/2025487_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/2025487/univ/art/2025487_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-8",
+            "title": "Philip Brumley.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/2025482/univ/art/2025482_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/2025482/univ/art/2025482_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/2025482/univ/art/2025482_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/2025482/univ/art/2025482_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-9",
+            "title": "Priests offering animal sacrifices on the altar of the temple.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/2025483/univ/art/2025483_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/2025483/univ/art/2025483_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/2025483/univ/art/2025483_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/2025483/univ/art/2025483_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-10",
+            "title": "July 2025",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202507/E/pt/w_E_202507_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202507/E/pt/w_E_202507_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202507/E/pt/w_E_202507_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202507/E/pt/w_E_202507_lg.jpg"
+            }
+          },
+          {
+            "id": "image-11",
+            "title": "July 2025",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202507/E/pt/w_E_202507_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202507/E/pt/w_E_202507_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202507/E/pt/w_E_202507_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202507/E/pt/w_E_202507_lg.jpg"
+            }
           }
         ],
         "audio": [],
-        "songs": []
+        "songs": [],
+        "downloads": [
+          {
+            "id": "audio-1",
+            "title": "Text\n                     \n                        Publication download options\n                        \n   \n   THE WATCHTOWER—STUDY EDITION July 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-2",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-3",
+            "title": "EPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-4",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-5",
+            "title": "Screen Reader (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-6",
+            "title": "Notetaker (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-7",
+            "title": "DAISY",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-8",
+            "title": "Audio\n                     \n                        Audio download options\n                        \n   \n   THE WATCHTOWER—STUDY EDITION July 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-9",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=E&txtCMSLang=E&isBible=0",
+            "format": null,
+            "size": null
+          }
+        ]
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-08-02T00:33:37.571Z"
+      "scrapedAt": "2025-08-02T19:06:20.512Z"
     }
   ],
   "urls": {
-    "midweek": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/julio-agosto-2025-mwb/",
-    "weekend": "https://www.jw.org/es/biblioteca/watchtower/atalaya-estudio-julio-2025/",
-    "workbook": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/",
-    "meetings": "https://www.jw.org/es/reuniones/"
+    "midweek": "https://www.jw.org/en/biblioteca/library/our-christian-life-and-ministry-meeting-workbook/july-august-2025-mwb/",
+    "midweekSpecific": null,
+    "weekend": "https://www.jw.org/en/library/magazines/watchtower-study-july-2025/",
+    "workbookBase": "https://www.jw.org/en/biblioteca/library/our-christian-life-and-ministry-meeting-workbook/",
+    "watchtowerBase": "https://www.jw.org/en/library/magazines/",
+    "videos": "https://www.jw.org/en/biblioteca/videos/#en/categories/VODSJJMeetings",
+    "music": "https://www.jw.org/en/biblioteca/musica-canciones/"
   },
   "stats": {
-    "totalSections": 0,
-    "totalMaterials": 12,
-    "totalDuration": 0
+    "totalSections": 10,
+    "totalMaterials": 18,
+    "totalDuration": null
   },
   "metadata": {
-    "generatedAt": "2025-08-02T00:33:37.601Z",
+    "generatedAt": "2025-08-02T19:06:25.239Z",
     "weekNumber": 31,
     "year": 2025,
     "filename": "week-31.json",
     "version": "1.0",
-    "language": "es"
+    "language": "en"
   }
 }

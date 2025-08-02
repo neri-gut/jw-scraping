@@ -2,6 +2,23 @@
 
 API automatizada para contenido semanal de reuniones de Testigos de Jehová mediante scraping de JW.org.
 
+## 🌍 **Soporte Multi-idioma**
+
+Esta API implementa **soporte multi-idioma realista** basado en investigación real de los patrones de URL de JW.org, soportando **6 idiomas principales** con contenido completo de reuniones:
+
+- 🇪🇸 **Español (es)** - español  
+- 🇺🇸 **English (en)** - English
+- 🇧🇷 **Português (pt)** - português (Brasil)
+- 🇫🇷 **Français (fr)** - français
+- 🇩🇪 **Deutsch (de)** - deutsch  
+- 🇮🇹 **Italiano (it)** - italiano
+
+### Estrategia Realista
+- ✅ **Calidad sobre cantidad**: 6 idiomas bien soportados vs 1000+ mal soportados
+- ✅ **URLs auténticas**: Basado en patrones reales de JW.org
+- ✅ **Terminología localizada**: biblioteca vs library vs bibliothèque
+- ✅ **Fallbacks configurados**: español → inglés
+
 ## 🎯 **Propósito**
 
 Este proyecto genera automáticamente una API REST con datos estructurados de las reuniones semanales, incluyendo:
@@ -55,6 +72,8 @@ npm run scrape -- --force
 
 # Diferente idioma
 npm run scrape -- --language=en
+npm run scrape -- --language=pt
+npm run scrape -- --language=fr
 ```
 
 ### Validación
@@ -65,6 +84,12 @@ npm run validate
 ### Generar API
 ```bash
 npm run generate-api
+
+# Generar API de idiomas
+npm run generate-languages
+
+# Build completo con multi-idioma
+npm run build
 ```
 
 ### Resumen
@@ -92,40 +117,87 @@ Una vez configurado, la API estará disponible en:
 https://TU-USUARIO.github.io/jw-scraping/
 ```
 
-## 📡 **Endpoints de la API**
+## 📡 **API REST Completa**
 
-### 📋 **Información general**
+### 🔗 **OpenAPI 3.0 Specification**
+La API incluye una especificación OpenAPI completa para integración fácil:
+
+- **📋 Especificación**: `/openapi.yaml`
+- **📖 Documentación interactiva**: `/docs.html` (Swagger UI)
+- **🔧 Clientes auto-generados**: JavaScript, TypeScript, Python, Java
+
+### **Endpoints de la API**
+
+#### 📋 **Información general**
 ```
 GET /index.json
 ```
 Metadatos de la API, endpoints disponibles y estadísticas generales.
 
-### 🕐 **Última semana**
+#### 🌍 **Idiomas soportados**
 ```
-GET /latest.json
+GET /languages.json
 ```
-Datos completos de la semana más reciente.
+Lista completa de idiomas soportados con URLs de ejemplo y configuración.
 
-### 📅 **Lista de semanas**
+#### 🕐 **Última semana**
 ```
-GET /weeks.json
+GET /latest.json?lang=es
+GET /latest.json?lang=en
 ```
-Resumen de todas las semanas disponibles con enlaces a datos completos.
+Datos completos de la semana más reciente. Soporte para filtrado por idioma.
 
-### 📊 **Estadísticas**
+#### 📅 **Lista de semanas**
+```
+GET /weeks.json?lang=pt
+GET /weeks.json?lang=fr
+```
+Resumen de todas las semanas disponibles con enlaces a datos completos. Filtrado por idioma disponible.
+
+#### 📊 **Estadísticas**
 ```
 GET /stats.json
 ```
 Estadísticas detalladas: total de reuniones, materiales, duración, etc.
 
-### 🗂️ **Datos específicos**
+#### 🗂️ **Datos específicos**
 ```
-GET /data/{year}/week-{number}.json
+GET /data/{year}/week-{number}.json?lang={code}
 ```
 
 Ejemplos:
-- `/data/2025/week-03.json` - Tercera semana de 2025
-- `/data/2025/week-15.json` - Decimoquinta semana de 2025
+- `/data/2025/week-03.json?lang=es` - Tercera semana de 2025 en español
+- `/data/2025/week-15.json?lang=en` - Decimoquinta semana de 2025 en inglés
+- `/data/2025/week-31.json?lang=pt` - Semana 31 de 2025 en portugués
+
+### 🌍 **Filtrado Multi-idioma**
+
+Todos los endpoints principales soportan el parámetro `lang`:
+
+```bash
+# Español (predeterminado)
+curl https://neri-gut.github.io/jw-scraping/latest.json
+
+# Inglés  
+curl https://neri-gut.github.io/jw-scraping/latest.json?lang=en
+
+# Portugués
+curl https://neri-gut.github.io/jw-scraping/weeks.json?lang=pt
+
+# Francés
+curl https://neri-gut.github.io/jw-scraping/data/2025/week-31.json?lang=fr
+```
+
+**Códigos de idioma soportados**: `es`, `en`, `pt`, `fr`, `de`, `it`
+
+### 🛠️ **Clientes de API**
+
+Clientes auto-generados disponibles en `/clients/`:
+
+- **JavaScript/Node.js**: Soporte completo para browser y Node.js
+- **TypeScript**: Tipado fuerte y autocompletado
+- **Python**: Soporte para requests y context managers
+- **Java**: Cliente Maven-ready con Gson
 
 ## 📄 **Estructura de Datos**
 
