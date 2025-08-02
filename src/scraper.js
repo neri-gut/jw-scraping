@@ -406,7 +406,7 @@ async function scrapePage(browser, urls, meetingType) {
     // Retornar estructura básica en caso de error
     return {
       type: meetingType,
-      title: CONFIG.languageConfig.terminology.meetingTypes[meetingType] || `Meeting ${meetingType}`,
+      title: (CONFIG.languages[CONFIG.language]?.name || 'Unknown') + ` - ${meetingType}`,
       date: null,
       url: urlsToTry[0] || 'unknown',
       sections: [],
@@ -471,7 +471,7 @@ function extractMeetingTitle($) {
     }
   }
   
-  return CONFIG.languageConfig.terminology.meetingTypes.midweek || 'Meeting';
+  return CONFIG.languages[CONFIG.language]?.name || 'Meeting';
 }
 
 /**
@@ -824,7 +824,7 @@ function generateSongResources(songNumber) {
   return {
     video: `https://download-a.akamaihd.net/files/media_music/ac/${paddedNumber}_V.mp4`,
     audio: `https://download-a.akamaihd.net/files/media_music/ac/${paddedNumber}_A.mp3`,
-    sheet: `${CONFIG.baseUrl}/${CONFIG.language}/${CONFIG.languageConfig.paths.music}/song-${songNumber}/`,
+    sheet: `${CONFIG.baseUrl}/${CONFIG.language}/biblioteca/musica-canciones/song-${songNumber}/`,
     instrumental: `https://download-a.akamaihd.net/files/media_music/ac/${paddedNumber}_I.mp3`
   };
 }
@@ -892,9 +892,9 @@ async function saveWeekData(weekData, weekDate) {
       version: '1.0',
       language: CONFIG.language,
       languageConfig: {
-        name: CONFIG.languageConfig.name,
-        nativeName: CONFIG.languageConfig.nativeName,
-        flag: CONFIG.languageConfig.flag
+        name: CONFIG.languages[CONFIG.language]?.name || 'Unknown',
+        nativeName: CONFIG.languages[CONFIG.language]?.nativeName || 'Unknown',
+        code: CONFIG.language
       }
     }
   };
@@ -962,9 +962,7 @@ async function main() {
         id: `week-${year}-${weekNumber}`,
         weekStartDate: weekStart.toISOString(),
         weekEndDate: weekEnd.toISOString(),
-        weekOf: CONFIG.languageConfig.dateFormats.weekFormat
-          .replace('{start}', format(weekStart, 'dd MMM'))
-          .replace('{end}', format(weekEnd, 'dd MMM')),
+        weekOf: `Semana del ${weekStart.getDate()}-${weekEnd.getDate()} ${CONFIG.languages[CONFIG.language]?.months[weekStart.getMonth()]?.slice(0,3) || 'ene'}`,
         year,
         weekNumber,
         meetings: [midweekData, weekendData].filter(m => m !== null),
