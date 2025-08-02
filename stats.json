@@ -1,0 +1,47 @@
+{
+  "overview": {
+    "totalWeeks": 1,
+    "totalMeetings": 2,
+    "totalSections": 0,
+    "totalMaterials": 12,
+    "totalDuration": 0
+  },
+  "byMeetingType": {
+    "midweek": {
+      "count": 1,
+      "avgDuration": 0,
+      "materials": 0
+    },
+    "weekend": {
+      "count": 1,
+      "avgDuration": 0,
+      "materials": 0
+    }
+  },
+  "byMaterialType": {
+    "videos": 0,
+    "images": 12,
+    "audio": 0,
+    "songs": 0
+  },
+  "byYear": {
+    "2025": {
+      "weeks": 1,
+      "meetings": 2,
+      "materials": 12
+    }
+  },
+  "dateRange": {
+    "earliest": "2025-07-28T00:00:00.000Z",
+    "latest": "2025-07-28T00:00:00.000Z"
+  },
+  "quality": {
+    "weeksWithErrors": 0,
+    "avgMaterialsPerWeek": 12,
+    "avgSectionsPerMeeting": 0
+  },
+  "meta": {
+    "generatedAt": "2025-08-02T06:32:17.952Z",
+    "dataVersion": "1.0"
+  }
+}

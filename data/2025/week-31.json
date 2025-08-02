@@ -1,0 +1,173 @@
+{
+  "id": "week-2025-31",
+  "weekStartDate": "2025-07-28T00:00:00.000Z",
+  "weekEndDate": "2025-08-03T00:00:00.000Z",
+  "weekOf": "Semana del 28-28 jul",
+  "year": 2025,
+  "weekNumber": 31,
+  "meetings": [
+    {
+      "type": "midweek",
+      "title": "Lo sentimos. La página que busca no se pudo hallar.",
+      "date": "2025-08-02T06:32:17.218Z",
+      "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/julio-agosto-2025-mwb/",
+      "sections": [],
+      "materials": {
+        "videos": [],
+        "images": [
+          {
+            "id": "image-1",
+            "title": "Imagen 1",
+            "downloadUrl": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print.png",
+            "format": "png"
+          },
+          {
+            "id": "image-2",
+            "title": "Imagen 2",
+            "downloadUrl": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print-rtl.png",
+            "format": "png"
+          },
+          {
+            "id": "image-3",
+            "title": "Imagen 3",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg"
+            },
+            "format": "jpg"
+          },
+          {
+            "id": "image-4",
+            "title": "Imagen 4",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg"
+            },
+            "format": "jpg"
+          },
+          {
+            "id": "image-5",
+            "title": "Imagen 5",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg"
+            },
+            "format": "jpg"
+          },
+          {
+            "id": "image-6",
+            "title": "Una pareja de testigos de Jehová le ofrece un folleto a una mujer en la puerta de su casa.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg"
+            },
+            "format": "jpg"
+          }
+        ],
+        "audio": [],
+        "songs": []
+      },
+      "totalDuration": 0,
+      "scrapedAt": "2025-08-02T06:32:17.222Z"
+    },
+    {
+      "type": "weekend",
+      "title": "Lo sentimos. La página que busca no se pudo hallar.",
+      "date": "2025-08-02T06:32:17.291Z",
+      "url": "https://www.jw.org/es/biblioteca/watchtower/atalaya-estudio-julio-2025/",
+      "sections": [],
+      "materials": {
+        "videos": [],
+        "images": [
+          {
+            "id": "image-1",
+            "title": "Imagen 1",
+            "downloadUrl": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print.png",
+            "format": "png"
+          },
+          {
+            "id": "image-2",
+            "title": "Imagen 2",
+            "downloadUrl": "https://www.jw.org/assets/ct/f2de21bac4/images/siteLogo-jworg-print-rtl.png",
+            "format": "png"
+          },
+          {
+            "id": "image-3",
+            "title": "Imagen 3",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/1011486/univ/art/1011486_univ_sqs_lg.jpg"
+            },
+            "format": "jpg"
+          },
+          {
+            "id": "image-4",
+            "title": "Imagen 4",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/1011201/univ/art/1011201_univ_sqs_lg.jpg"
+            },
+            "format": "jpg"
+          },
+          {
+            "id": "image-5",
+            "title": "Imagen 5",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/1011207/univ/art/1011207_univ_sqs_lg.jpg"
+            },
+            "format": "jpg"
+          },
+          {
+            "id": "image-6",
+            "title": "Una pareja de testigos de Jehová le ofrece un folleto a una mujer en la puerta de su casa.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/1011228/univ/art/1011228_univ_sqs_lg.jpg"
+            },
+            "format": "jpg"
+          }
+        ],
+        "audio": [],
+        "songs": []
+      },
+      "totalDuration": 0,
+      "scrapedAt": "2025-08-02T06:32:17.295Z"
+    }
+  ],
+  "urls": {
+    "midweek": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/julio-agosto-2025-mwb/",
+    "weekend": "https://www.jw.org/es/biblioteca/watchtower/atalaya-estudio-julio-2025/",
+    "workbook": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/2025/",
+    "meetings": "https://www.jw.org/es/reuniones/"
+  },
+  "stats": {
+    "totalSections": 0,
+    "totalMaterials": 12,
+    "totalDuration": 0
+  },
+  "metadata": {
+    "generatedAt": "2025-08-02T06:32:17.301Z",
+    "weekNumber": 31,
+    "year": 2025,
+    "filename": "week-31.json",
+    "version": "1.0",
+    "language": "es"
+  }
+}
