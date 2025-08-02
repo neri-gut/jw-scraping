@@ -9,7 +9,7 @@
     {
       "type": "midweek",
       "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-08-02T05:24:32.912Z",
+      "date": "2025-08-02T06:32:17.218Z",
       "url": "https://www.jw.org/es/biblioteca/jw-cuaderno-de-reuniones/julio-agosto-2025-mwb/",
       "sections": [],
       "materials": {
@@ -76,12 +76,12 @@
         "songs": []
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-08-02T05:24:32.917Z"
+      "scrapedAt": "2025-08-02T06:32:17.222Z"
     },
     {
       "type": "weekend",
       "title": "Lo sentimos. La página que busca no se pudo hallar.",
-      "date": "2025-08-02T05:24:32.962Z",
+      "date": "2025-08-02T06:32:17.291Z",
       "url": "https://www.jw.org/es/biblioteca/watchtower/atalaya-estudio-julio-2025/",
       "sections": [],
       "materials": {
@@ -148,7 +148,7 @@
         "songs": []
       },
       "totalDuration": 0,
-      "scrapedAt": "2025-08-02T05:24:32.965Z"
+      "scrapedAt": "2025-08-02T06:32:17.295Z"
     }
   ],
   "urls": {
@@ -163,7 +163,7 @@
     "totalDuration": 0
   },
   "metadata": {
-    "generatedAt": "2025-08-02T05:24:32.970Z",
+    "generatedAt": "2025-08-02T06:32:17.301Z",
     "weekNumber": 31,
     "year": 2025,
     "filename": "week-31.json",
