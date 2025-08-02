@@ -1,0 +1,149 @@
+{
+  "languages": [
+    {
+      "code": "es",
+      "name": "Español",
+      "nativeName": "Español",
+      "flag": "🇪🇸",
+      "isDefault": true,
+      "terminology": {
+        "workbookName": "Guía de actividades para la reunión Vida y Ministerio Cristiano",
+        "watchtowerName": "La Atalaya",
+        "meetingTypes": {
+          "midweek": "Vida y Ministerio Cristiano",
+          "weekend": "Reunión de fin de semana"
+        }
+      },
+      "paths": {
+        "workbook": "guia-actividades-reunion-testigos-jehova",
+        "watchtower": "biblioteca/revistas"
+      },
+      "apiEndpoints": {
+        "latest": "./latest-es.json",
+        "weeks": "./weeks-es.json"
+      }
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "flag": "🇺🇸",
+      "isDefault": false,
+      "terminology": {
+        "workbookName": "Our Christian Life and Ministry Meeting Workbook",
+        "watchtowerName": "The Watchtower",
+        "meetingTypes": {
+          "midweek": "Our Christian Life and Ministry",
+          "weekend": "Weekend Meeting"
+        }
+      },
+      "paths": {
+        "workbook": "jw-meeting-workbook",
+        "watchtower": "library/magazines"
+      },
+      "apiEndpoints": {
+        "latest": "./latest-en.json",
+        "weeks": "./weeks-en.json"
+      }
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "nativeName": "Português",
+      "flag": "🇧🇷",
+      "isDefault": false,
+      "terminology": {
+        "workbookName": "Apostilas para Nossa Vida e Ministério Cristão",
+        "watchtowerName": "A Sentinela",
+        "meetingTypes": {
+          "midweek": "Nossa Vida e Ministério Cristão",
+          "weekend": "Reunião de fim de semana"
+        }
+      },
+      "paths": {
+        "workbook": "apostilas-vida-ministerio-cristao",
+        "watchtower": "biblioteca/revistas"
+      },
+      "apiEndpoints": {
+        "latest": "./latest-pt.json",
+        "weeks": "./weeks-pt.json"
+      }
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "nativeName": "Français",
+      "flag": "🇫🇷",
+      "isDefault": false,
+      "terminology": {
+        "workbookName": "Cahier pour les réunions Vie chrétienne et ministère",
+        "watchtowerName": "La Tour de Garde",
+        "meetingTypes": {
+          "midweek": "Vie chrétienne et ministère",
+          "weekend": "Réunion de fin de semaine"
+        }
+      },
+      "paths": {
+        "workbook": "cahier-reunions-vie-ministere-chretien",
+        "watchtower": "bibliotheque/magazines"
+      },
+      "apiEndpoints": {
+        "latest": "./latest-fr.json",
+        "weeks": "./weeks-fr.json"
+      }
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "flag": "🇩🇪",
+      "isDefault": false,
+      "terminology": {
+        "workbookName": "Arbeitsheft für Unser Leben und Dienst als Christ",
+        "watchtowerName": "Der Wachtturm",
+        "meetingTypes": {
+          "midweek": "Unser Leben und Dienst als Christ",
+          "weekend": "Wochenendversammlung"
+        }
+      },
+      "paths": {
+        "workbook": "arbeitsheft-leben-dienst-als-christ",
+        "watchtower": "bibliothek/zeitschriften"
+      },
+      "apiEndpoints": {
+        "latest": "./latest-de.json",
+        "weeks": "./weeks-de.json"
+      }
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "nativeName": "Italiano",
+      "flag": "🇮🇹",
+      "isDefault": false,
+      "terminology": {
+        "workbookName": "Quaderno per la Vita e il ministero cristiano",
+        "watchtowerName": "La Torre di Guardia",
+        "meetingTypes": {
+          "midweek": "Vita e ministero cristiano",
+          "weekend": "Adunanza del fine settimana"
+        }
+      },
+      "paths": {
+        "workbook": "quaderno-vita-ministero-cristiano",
+        "watchtower": "biblioteca/riviste"
+      },
+      "apiEndpoints": {
+        "latest": "./latest-it.json",
+        "weeks": "./weeks-it.json"
+      }
+    }
+  ],
+  "meta": {
+    "endpoint": "languages",
+    "description": "Supported languages and their configuration",
+    "generatedAt": "2025-08-02T20:46:32.787Z",
+    "totalLanguages": 6,
+    "version": "1.0"
+  }
+}

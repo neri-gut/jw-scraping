@@ -3,20 +3,31 @@
     "name": "JW.org Meeting Content API",
     "description": "API automatizada para contenido semanal de reuniones de Testigos de Jehová",
     "version": "1.0",
-    "generatedAt": "2025-08-02T17:18:38.418Z",
-    "language": "es",
+    "generatedAt": "2025-08-02T20:46:32.786Z",
+    "supportedLanguages": [
+      "es",
+      "en",
+      "pt",
+      "fr",
+      "de",
+      "it"
+    ],
+    "defaultLanguage": "en",
+    "multiLanguage": true,
     "baseUrl": "https://tu-usuario.github.io/jw-scraping"
   },
   "endpoints": {
     "latest": {
       "url": "./latest.json",
-      "description": "Datos de la semana más reciente",
-      "cache": "1 hour"
+      "description": "Latest week data (all languages)",
+      "cache": "1 hour",
+      "languageSpecific": "./latest-{lang}.json"
     },
     "weeks": {
       "url": "./weeks.json",
-      "description": "Lista de todas las semanas disponibles",
-      "cache": "6 hours"
+      "description": "All available weeks (all languages)",
+      "cache": "6 hours",
+      "languageSpecific": "./weeks-{lang}.json"
     },
     "weekData": {
       "url": "./data/{year}/week-{weekNumber}.json",
@@ -29,30 +40,43 @@
     },
     "stats": {
       "url": "./stats.json",
-      "description": "Estadísticas generales de la API",
+      "description": "General API statistics",
+      "cache": "24 hours"
+    },
+    "languages": {
+      "url": "./languages.json",
+      "description": "Supported languages and their configuration",
       "cache": "24 hours"
     }
   },
   "stats": {
     "totalWeeks": 1,
     "totalMeetings": 2,
-    "totalMaterials": 12,
+    "totalMaterials": 13,
     "averageDuration": 0,
-    "lastUpdate": "2025-08-02T15:39:04.813Z"
+    "lastUpdate": "2025-08-02T20:23:28.393Z"
   },
   "usage": {
     "examples": [
       {
-        "description": "Obtener la semana más reciente",
+        "description": "Get latest week (all languages)",
         "url": "./latest.json"
       },
       {
-        "description": "Obtener lista de semanas",
-        "url": "./weeks.json"
+        "description": "Get latest week for Spanish",
+        "url": "./latest.json?lang=es"
       },
       {
-        "description": "Obtener semana específica",
+        "description": "Get all weeks for English",
+        "url": "./weeks.json?lang=en"
+      },
+      {
+        "description": "Get specific week",
         "url": "./data/2025/week-03.json"
+      },
+      {
+        "description": "Get supported languages",
+        "url": "./languages.json"
       }
     ],
     "cors": "enabled",

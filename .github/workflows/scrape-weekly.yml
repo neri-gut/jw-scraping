@@ -62,6 +62,9 @@ jobs:
     - name: 🔍 Validate OpenAPI specification
       run: npm run validate-openapi
 
+    - name: 🌍 Generate languages API
+      run: npm run generate-languages
+
     - name: 📊 Generate API
       run: npm run generate-api
 

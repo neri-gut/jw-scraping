@@ -2,8 +2,8 @@
   "overview": {
     "totalWeeks": 1,
     "totalMeetings": 2,
-    "totalSections": 0,
-    "totalMaterials": 12,
+    "totalSections": 10,
+    "totalMaterials": 4,
     "totalDuration": 0
   },
   "byMeetingType": {
@@ -20,7 +20,7 @@
   },
   "byMaterialType": {
     "videos": 0,
-    "images": 12,
+    "images": 4,
     "audio": 0,
     "songs": 0
   },
@@ -28,7 +28,14 @@
     "2025": {
       "weeks": 1,
       "meetings": 2,
-      "materials": 12
+      "materials": 4
+    }
+  },
+  "byLanguage": {
+    "es": {
+      "weeks": 1,
+      "meetings": 2,
+      "materials": 4
     }
   },
   "dateRange": {
@@ -36,12 +43,12 @@
     "latest": "2025-07-28T06:00:00.000Z"
   },
   "quality": {
-    "weeksWithErrors": 0,
-    "avgMaterialsPerWeek": 12,
-    "avgSectionsPerMeeting": 0
+    "weeksWithErrors": 1,
+    "avgMaterialsPerWeek": 4,
+    "avgSectionsPerMeeting": 5
   },
   "meta": {
-    "generatedAt": "2025-08-02T17:18:38.418Z",
+    "generatedAt": "2025-08-02T20:46:32.787Z",
     "dataVersion": "1.0"
   }
 }

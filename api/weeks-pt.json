@@ -1,0 +1,12 @@
+{
+  "weeks": [],
+  "meta": {
+    "endpoint": "weeks",
+    "description": "All weeks for pt",
+    "generatedAt": "2025-08-02T20:46:32.792Z",
+    "totalWeeks": 0,
+    "language": "pt",
+    "dateRange": {},
+    "version": "1.0"
+  }
+}

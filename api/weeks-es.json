@@ -16,10 +16,10 @@
   ],
   "meta": {
     "endpoint": "weeks",
-    "description": "All available weeks (all languages)",
-    "generatedAt": "2025-08-02T20:46:32.786Z",
+    "description": "All weeks for es",
+    "generatedAt": "2025-08-02T20:46:32.790Z",
     "totalWeeks": 1,
-    "language": "multi",
+    "language": "es",
     "dateRange": {
       "earliest": "2025-07-28T06:00:00.000Z",
       "latest": "2025-07-28T06:00:00.000Z"

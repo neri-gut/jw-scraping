@@ -270,5 +270,13 @@
       "nativeName": "Español",
       "code": "es"
     }
+  },
+  "meta": {
+    "endpoint": "latest",
+    "description": "Latest week data for es",
+    "generatedAt": "2025-08-02T20:46:32.790Z",
+    "totalWeeksAvailable": 1,
+    "language": "es",
+    "version": "1.0"
   }
 }
