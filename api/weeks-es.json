@@ -12,13 +12,26 @@
       "totalMaterials": 13,
       "dataUrl": "./data/2025/week-31.json",
       "lastUpdated": "2025-08-02T20:53:25.268Z"
+    },
+    {
+      "id": "week-2025-32",
+      "weekOf": "Semana del 28-3 jul",
+      "weekStartDate": "2025-07-28T00:00:00.000Z",
+      "weekEndDate": "2025-08-03T00:00:00.000Z",
+      "year": 2025,
+      "weekNumber": 32,
+      "meetingCount": 2,
+      "totalDuration": 0,
+      "totalMaterials": 13,
+      "dataUrl": "./data/2025/week-32.json",
+      "lastUpdated": "2025-08-03T06:32:31.992Z"
     }
   ],
   "meta": {
     "endpoint": "weeks",
     "description": "All weeks for es",
-    "generatedAt": "2025-08-02T20:53:26.427Z",
-    "totalWeeks": 1,
+    "generatedAt": "2025-08-03T06:32:33.179Z",
+    "totalWeeks": 2,
     "language": "es",
     "dateRange": {
       "earliest": "2025-07-28T00:00:00.000Z",

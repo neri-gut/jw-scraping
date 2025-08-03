@@ -167,4 +167,4 @@ Generated clients are provided under the same license as the main project (MIT).
 
 ---
 
-*Auto-generated on 2025-08-02T20:53:26.719Z*
+*Auto-generated on 2025-08-03T06:32:33.471Z*

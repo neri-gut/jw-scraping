@@ -274,8 +274,8 @@
   "meta": {
     "endpoint": "latest",
     "description": "Latest week data (all languages)",
-    "generatedAt": "2025-08-02T20:53:26.416Z",
-    "totalWeeksAvailable": 1,
+    "generatedAt": "2025-08-03T06:32:33.167Z",
+    "totalWeeksAvailable": 2,
     "language": "multi",
     "version": "1.0"
   }
