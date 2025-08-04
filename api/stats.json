@@ -1,54 +1,59 @@
 {
   "overview": {
-    "totalWeeks": 1,
-    "totalMeetings": 2,
-    "totalSections": 10,
-    "totalMaterials": 4,
+    "totalWeeks": 6,
+    "totalMeetings": 12,
+    "totalSections": 60,
+    "totalMaterials": 47,
     "totalDuration": 0
   },
   "byMeetingType": {
     "midweek": {
-      "count": 1,
+      "count": 6,
       "avgDuration": 0,
       "materials": 0
     },
     "weekend": {
-      "count": 1,
+      "count": 6,
       "avgDuration": 0,
       "materials": 0
     }
   },
   "byMaterialType": {
     "videos": 0,
-    "images": 4,
+    "images": 47,
     "audio": 0,
     "songs": 0
   },
   "byYear": {
+    "2024": {
+      "weeks": 2,
+      "meetings": 4,
+      "materials": 16
+    },
     "2025": {
-      "weeks": 1,
-      "meetings": 2,
-      "materials": 4
+      "weeks": 4,
+      "meetings": 8,
+      "materials": 31
     }
   },
   "byLanguage": {
     "es": {
-      "weeks": 1,
-      "meetings": 2,
-      "materials": 4
+      "weeks": 6,
+      "meetings": 12,
+      "materials": 47
     }
   },
   "dateRange": {
-    "earliest": "2025-07-28T06:00:00.000Z",
-    "latest": "2025-07-28T06:00:00.000Z"
+    "earliest": "2024-05-27T06:00:00.000Z",
+    "latest": "2025-12-29T06:00:00.000Z"
   },
   "quality": {
-    "weeksWithErrors": 1,
-    "avgMaterialsPerWeek": 4,
+    "weeksWithErrors": 6,
+    "avgMaterialsPerWeek": 8,
     "avgSectionsPerMeeting": 5
   },
   "meta": {
-    "generatedAt": "2025-08-02T20:46:32.787Z",
+    "generatedAt": "2025-08-03T03:57:32.531Z",
     "dataVersion": "1.0"
   }
 }

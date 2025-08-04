@@ -1,21 +1,41 @@
 {
   "id": "week-2025-31",
-  "weekStartDate": "2025-07-28T06:00:00.000Z",
-  "weekEndDate": "2025-08-03T06:00:00.000Z",
-  "weekOf": "Semana del 28-3 jul",
+  "weekStartDate": "2025-07-21T06:00:00.000Z",
+  "weekEndDate": "2025-07-27T06:00:00.000Z",
+  "weekOf": "Semana del 21-27 jul",
   "year": 2025,
   "weekNumber": 31,
   "meetings": [
     {
       "type": "midweek",
-      "title": "28 de julio a 3 de agosto",
-      "date": "2025-08-02T20:23:23.089Z",
-      "url": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/julio-agosto-2025-mwb/Vida-y-Ministerio-Cristianos-28-de-julio-a-3-de-agosto-de-2025/",
+      "title": "Portuguese (Brazil) - midweek",
+      "date": null,
+      "url": "https://www.jw.org/pt/library/jw-apostila-do-mes/julho-agosto-2025-mwb/",
+      "sections": [],
+      "materials": {
+        "videos": [],
+        "images": [],
+        "audio": [],
+        "songs": []
+      },
+      "error": "No se pudo cargar ninguna URL para midweek. URLs intentadas: https://www.jw.org/pt/library/jw-apostila-do-mes/julho-agosto-2025-mwb/, https://www.jw.org/pt/library/jw-apostila-do-mes/",
+      "urlsAttempted": [
+        "https://www.jw.org/pt/library/jw-apostila-do-mes/julho-agosto-2025-mwb/",
+        "https://www.jw.org/pt/library/jw-apostila-do-mes/"
+      ],
+      "language": "pt",
+      "scrapedAt": "2025-08-03T04:08:39.303Z"
+    },
+    {
+      "type": "weekend",
+      "title": "Revistas A Sentinela e Despertai!",
+      "date": "2025-08-03T04:08:36.849Z",
+      "url": "https://www.jw.org/pt/biblioteca/revistas/",
       "sections": [
         {
           "id": "section-1",
           "order": 1,
-          "title": "Configuración de privacidad",
+          "title": "Configurações de privacidade",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -24,7 +44,7 @@
         {
           "id": "section-2",
           "order": 2,
-          "title": "Testigos de Jehová",
+          "title": "Testemunhas de Jeová",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -33,7 +53,7 @@
         {
           "id": "section-3",
           "order": 3,
-          "title": "28 de julio a 3 de agosto",
+          "title": "Revistas A Sentinela e Despertai!",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -42,7 +62,7 @@
         {
           "id": "section-4",
           "order": 4,
-          "title": "PROVERBIOS 24",
+          "title": "Maio de 2025",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -51,7 +71,7 @@
         {
           "id": "section-5",
           "order": 5,
-          "title": "Canción 38 y oración | Palabras de introducción (1 min.)",
+          "title": "Faz sentido acreditar num Criador?",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -60,7 +80,7 @@
         {
           "id": "section-6",
           "order": 6,
-          "title": "TESOROS DE LA BIBLIA",
+          "title": "DESPERTAI!",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -69,7 +89,7 @@
         {
           "id": "section-7",
           "order": 7,
-          "title": "1. Fortalézcase ahora para las situaciones difíciles",
+          "title": "5 dicas para lidar com a alta nos preços",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -78,7 +98,7 @@
         {
           "id": "section-8",
           "order": 8,
-          "title": "2. Busquemos perlas escondidas",
+          "title": "5 dicas para lidar com a alta nos preços",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -87,7 +107,7 @@
         {
           "id": "section-9",
           "order": 9,
-          "title": "3. Lectura de la Biblia",
+          "title": "N.º 1 2025 | 5 dicas para lidar com a alta nos preços",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -96,7 +116,7 @@
         {
           "id": "section-10",
           "order": 10,
-          "title": "SEAMOS MEJORES MAESTROS",
+          "title": "O que aconteceu com o respeito?",
           "duration": 0,
           "type": "general",
           "materials": [],
@@ -108,46 +128,200 @@
         "images": [
           {
             "id": "image-3",
-            "title": "Una hermana con una enfermedad grave predica muy contenta de casa en casa con una amiga. Le muestra algo en la tablet a una mujer que la atiende en una puerta.",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202025244/univ/art/202025244_univ_cnt_1_lg.jpg",
+            "title": "Imagen 3",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202505/T/pt/w_T_202505_lg.jpg",
             "format": "jpg",
             "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/202025244/univ/art/202025244_univ_cnt_1_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/202025244/univ/art/202025244_univ_cnt_1_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/202025244/univ/art/202025244_univ_cnt_1_lg.jpg"
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202505/T/pt/w_T_202505_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202505/T/pt/w_T_202505_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202505/T/pt/w_T_202505_lg.jpg"
             }
           },
           {
             "id": "image-4",
-            "title": "Imágenes de hermanos y hermanas ayudando a otros Testigos de varias formas. 1. Hermanos y hermanas reconstruyen un Salón del Reino que fue destruido por un desastre natural. 2. Hermanos les dan una cariñosa bienvenida a una madre y su hija que llegan como refugiadas. 3. Una hermana pone una donación en la caja de contribuciones del Salón del Reino. 4. En un Salón del Reino, hermanos y hermanas reparten artículos de primera necesidad a Testigos que llegan como refugiados. 5. Voluntarios reparten paquetes de agua embotellada. 6. Un hermano ora.",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202025244/univ/art/202025244_univ_cnt_2_lg.jpg",
+            "title": "Imagen 4",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/g/202111/T/pt/g_T_202111_lg.jpg",
             "format": "jpg",
             "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/202025244/univ/art/202025244_univ_cnt_2_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/202025244/univ/art/202025244_univ_cnt_2_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/202025244/univ/art/202025244_univ_cnt_2_lg.jpg"
+              "large": "https://cms-imgp.jw-cdn.org/img/p/g/202111/T/pt/g_T_202111_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/g/202111/T/pt/g_T_202111_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/g/202111/T/pt/g_T_202111_lg.jpg"
             }
           },
           {
             "id": "image-5",
-            "title": "Julio y agosto de 2025",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/mwb/202507/S/pt/mwb_S_202507_lg.jpg",
+            "title": "Imagen 5",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/g/202511/T/pt/g_T_202511_lg.jpg",
             "format": "jpg",
             "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/mwb/202507/S/pt/mwb_S_202507_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/mwb/202507/S/pt/mwb_S_202507_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/mwb/202507/S/pt/mwb_S_202507_lg.jpg"
+              "large": "https://cms-imgp.jw-cdn.org/img/p/g/202511/T/pt/g_T_202511_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/g/202511/T/pt/g_T_202511_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/g/202511/T/pt/g_T_202511_lg.jpg"
             }
           },
           {
             "id": "image-6",
-            "title": "Julio y agosto de 2025",
-            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/mwb/202507/S/pt/mwb_S_202507_lg.jpg",
+            "title": "Imagen 6",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/g/202411/T/pt/g_T_202411_lg.jpg",
             "format": "jpg",
             "sizes": {
-              "large": "https://cms-imgp.jw-cdn.org/img/p/mwb/202507/S/pt/mwb_S_202507_lg.jpg",
-              "medium": "https://cms-imgp.jw-cdn.org/img/p/mwb/202507/S/pt/mwb_S_202507_lg.jpg",
-              "small": "https://cms-imgp.jw-cdn.org/img/p/mwb/202507/S/pt/mwb_S_202507_lg.jpg"
+              "large": "https://cms-imgp.jw-cdn.org/img/p/g/202411/T/pt/g_T_202411_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/g/202411/T/pt/g_T_202411_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/g/202411/T/pt/g_T_202411_lg.jpg"
+            }
+          },
+          {
+            "id": "image-7",
+            "title": "Imagen 7",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/g/202311/T/pt/g_T_202311_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/g/202311/T/pt/g_T_202311_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/g/202311/T/pt/g_T_202311_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/g/202311/T/pt/g_T_202311_lg.jpg"
+            }
+          },
+          {
+            "id": "image-8",
+            "title": "Imagen 8",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/g/202207/T/pt/g_T_202207_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/g/202207/T/pt/g_T_202207_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/g/202207/T/pt/g_T_202207_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/g/202207/T/pt/g_T_202207_lg.jpg"
+            }
+          },
+          {
+            "id": "image-9",
+            "title": "Imagen 9",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/wp/202509/T/pt/wp_T_202509_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/wp/202509/T/pt/wp_T_202509_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/wp/202509/T/pt/wp_T_202509_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/wp/202509/T/pt/wp_T_202509_lg.jpg"
+            }
+          },
+          {
+            "id": "image-10",
+            "title": "Imagen 10",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/wp/202407/T/pt/wp_T_202407_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/wp/202407/T/pt/wp_T_202407_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/wp/202407/T/pt/wp_T_202407_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/wp/202407/T/pt/wp_T_202407_lg.jpg"
+            }
+          },
+          {
+            "id": "image-11",
+            "title": "Imagen 11",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/wp/202305/T/pt/wp_T_202305_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/wp/202305/T/pt/wp_T_202305_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/wp/202305/T/pt/wp_T_202305_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/wp/202305/T/pt/wp_T_202305_lg.jpg"
+            }
+          },
+          {
+            "id": "image-12",
+            "title": "Imagen 12",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/wp/202205/T/pt/wp_T_202205_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/wp/202205/T/pt/wp_T_202205_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/wp/202205/T/pt/wp_T_202205_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/wp/202205/T/pt/wp_T_202205_lg.jpg"
+            }
+          },
+          {
+            "id": "image-13",
+            "title": "Imagen 13",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202510/T/pt/w_T_202510_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202510/T/pt/w_T_202510_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202510/T/pt/w_T_202510_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202510/T/pt/w_T_202510_lg.jpg"
+            }
+          },
+          {
+            "id": "image-14",
+            "title": "Imagen 14",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202509/T/pt/w_T_202509_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202509/T/pt/w_T_202509_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202509/T/pt/w_T_202509_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202509/T/pt/w_T_202509_lg.jpg"
+            }
+          },
+          {
+            "id": "image-15",
+            "title": "Imagen 15",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202508/T/pt/w_T_202508_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202508/T/pt/w_T_202508_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202508/T/pt/w_T_202508_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202508/T/pt/w_T_202508_lg.jpg"
+            }
+          },
+          {
+            "id": "image-16",
+            "title": "Imagen 16",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202507/T/pt/w_T_202507_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202507/T/pt/w_T_202507_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202507/T/pt/w_T_202507_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202507/T/pt/w_T_202507_lg.jpg"
+            }
+          },
+          {
+            "id": "image-17",
+            "title": "Imagen 17",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202506/T/pt/w_T_202506_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202506/T/pt/w_T_202506_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202506/T/pt/w_T_202506_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202506/T/pt/w_T_202506_lg.jpg"
+            }
+          },
+          {
+            "id": "image-18",
+            "title": "Imagen 18",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202505/T/pt/w_T_202505_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202505/T/pt/w_T_202505_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202505/T/pt/w_T_202505_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202505/T/pt/w_T_202505_lg.jpg"
+            }
+          },
+          {
+            "id": "image-19",
+            "title": "Imagen 19",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202504/T/pt/w_T_202504_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202504/T/pt/w_T_202504_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202504/T/pt/w_T_202504_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202504/T/pt/w_T_202504_lg.jpg"
+            }
+          },
+          {
+            "id": "image-20",
+            "title": "Imagen 20",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/w/202503/T/pt/w_T_202503_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/w/202503/T/pt/w_T_202503_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/w/202503/T/pt/w_T_202503_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/w/202503/T/pt/w_T_202503_lg.jpg"
             }
           }
         ],
@@ -156,119 +330,869 @@
         "downloads": [
           {
             "id": "audio-1",
-            "title": "Texto\n                     \n                        Opciones de descarga de publicaciones\n                        \n   \n   GUÍA DE ACTIVIDADES Julio y agosto de 2025",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   DESPERTAI! 5 dicas para lidar com a alta nos preços",
+            "downloadUrl": "https://www.jw.org/download/?issue=202511&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           },
           {
             "id": "audio-2",
             "title": "PDF",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "downloadUrl": "https://www.jw.org/download/?issue=202511&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           },
           {
             "id": "audio-3",
-            "title": "EPUB",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202511&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           },
           {
             "id": "audio-4",
-            "title": "JWPUB",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202511&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           },
           {
             "id": "audio-5",
-            "title": "Lector de pantalla (RTF)",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202511&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           },
           {
             "id": "audio-6",
-            "title": "Anotador (BRL)",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   DESPERTAI! 5 dicas para lidar com a alta nos preços",
+            "downloadUrl": "https://www.jw.org/download/?issue=202511&output=html&pub=g&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           },
           {
             "id": "audio-7",
-            "title": "DAISY",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202511&output=html&pub=g&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           },
           {
             "id": "audio-8",
-            "title": "Audio\n                     \n                        Opciones de descarga de audio\n                        \n   \n   GUÍA DE ACTIVIDADES Julio y agosto de 2025",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=MP3%2CAAC&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   DESPERTAI! O que aconteceu com o respeito?",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           },
           {
             "id": "audio-9",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-10",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-11",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-12",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-13",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   DESPERTAI! O que aconteceu com o respeito?",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=g&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-14",
             "title": "MP3",
-            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=mwb&fileformat=MP3%2CAAC&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=g&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-15",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   DESPERTAI! Será que a Terra vai sobreviver? — Motivos para ter esperança",
+            "downloadUrl": "https://www.jw.org/download/?issue=202311&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-16",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202311&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-17",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202311&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-18",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202311&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-19",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   DESPERTAI! Será que a Terra vai sobreviver? — Motivos para ter esperança",
+            "downloadUrl": "https://www.jw.org/download/?issue=202311&output=html&pub=g&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-20",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202311&output=html&pub=g&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-21",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   DESPERTAI! Um mundo em crise — O que você pode fazer?",
+            "downloadUrl": "https://www.jw.org/download/?issue=202207&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-22",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202207&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-23",
+            "title": "EPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202207&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-24",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202207&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-25",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202207&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-26",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202207&output=html&pub=g&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-27",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   DESPERTAI! Um mundo em crise — O que você pode fazer?",
+            "downloadUrl": "https://www.jw.org/download/?issue=202207&output=html&pub=g&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-28",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202207&output=html&pub=g&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-29",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA O fim das guerras — Como?",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-30",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-31",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-32",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-33",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-34",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA O fim das guerras — Como?",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=wp&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-35",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=wp&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-36",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA Como saber o que é certo e errado?",
+            "downloadUrl": "https://www.jw.org/download/?issue=202407&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-37",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202407&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-38",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202407&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-39",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202407&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-40",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202407&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-41",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA Como saber o que é certo e errado?",
+            "downloadUrl": "https://www.jw.org/download/?issue=202407&output=html&pub=wp&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-42",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202407&output=html&pub=wp&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-43",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA Saúde mental: como a Bíblia pode ajudar",
+            "downloadUrl": "https://www.jw.org/download/?issue=202305&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-44",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202305&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-45",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202305&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-46",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202305&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-47",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202305&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-48",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA Saúde mental: como a Bíblia pode ajudar",
+            "downloadUrl": "https://www.jw.org/download/?issue=202305&output=html&pub=wp&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-49",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202305&output=html&pub=wp&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-50",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA Como parar o ciclo do ódio",
+            "downloadUrl": "https://www.jw.org/download/?issue=202205&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-51",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202205&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-52",
+            "title": "EPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202205&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-53",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202205&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-54",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202205&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-55",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202205&output=html&pub=wp&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-56",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA Como parar o ciclo do ódio",
+            "downloadUrl": "https://www.jw.org/download/?issue=202205&output=html&pub=wp&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-57",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202205&output=html&pub=wp&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-58",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Outubro de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202510&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-59",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202510&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-60",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202510&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-61",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202510&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-62",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202510&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-63",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Outubro de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202510&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-64",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202510&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-65",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Setembro de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-66",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-67",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-68",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-69",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-70",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Setembro de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-71",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202509&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-72",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Agosto de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202508&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-73",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202508&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-74",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202508&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-75",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202508&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-76",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202508&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-77",
+            "title": "DAISY",
+            "downloadUrl": "https://www.jw.org/download/?issue=202508&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-78",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Agosto de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202508&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-79",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202508&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-80",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Julho de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-81",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-82",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-83",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-84",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-85",
+            "title": "DAISY",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-86",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Julho de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-87",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202507&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-88",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Junho de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202506&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-89",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202506&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-90",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202506&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-91",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202506&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-92",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202506&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-93",
+            "title": "DAISY",
+            "downloadUrl": "https://www.jw.org/download/?issue=202506&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-94",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Junho de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202506&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-95",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202506&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-96",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Maio de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202505&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-97",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202505&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-98",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202505&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-99",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202505&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-100",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202505&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-101",
+            "title": "DAISY",
+            "downloadUrl": "https://www.jw.org/download/?issue=202505&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-102",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Maio de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202505&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-103",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202505&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-104",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Abril de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202504&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-105",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202504&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-106",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202504&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-107",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202504&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-108",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202504&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-109",
+            "title": "DAISY",
+            "downloadUrl": "https://www.jw.org/download/?issue=202504&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-110",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Abril de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202504&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-111",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202504&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-112",
+            "title": "Texto\n                     \n                        Opções de download de publicações\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Março de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202503&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-113",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202503&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-114",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202503&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-115",
+            "title": "Leitor de tela (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202503&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-116",
+            "title": "Linha braille (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202503&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-117",
+            "title": "DAISY",
+            "downloadUrl": "https://www.jw.org/download/?issue=202503&output=html&pub=w&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-118",
+            "title": "Áudio\n                     \n                        Opções de download de áudio\n                        \n   \n   A SENTINELA (EDIÇÃO DE ESTUDO) Março de 2025",
+            "downloadUrl": "https://www.jw.org/download/?issue=202503&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-119",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202503&output=html&pub=w&fileformat=MP3%2CAAC&alllangs=0&langwritten=T&txtCMSLang=T&isBible=0",
             "format": null,
             "size": null
           }
         ]
       },
       "totalDuration": 0,
-      "language": "es",
-      "scrapedAt": "2025-08-02T20:23:23.098Z"
-    },
-    {
-      "type": "weekend",
-      "title": "Español - weekend",
-      "date": null,
-      "url": "https://www.jw.org/es/revistas/atalaya-estudio-julio-2025/",
-      "sections": [],
-      "materials": {
-        "videos": [],
-        "images": [],
-        "audio": [],
-        "songs": []
-      },
-      "error": "No se pudo cargar ninguna URL para weekend. URLs intentadas: https://www.jw.org/es/revistas/atalaya-estudio-julio-2025/, https://www.jw.org/es/revistas/",
-      "urlsAttempted": [
-        "https://www.jw.org/es/revistas/atalaya-estudio-julio-2025/",
-        "https://www.jw.org/es/revistas/"
-      ],
-      "language": "es",
-      "scrapedAt": "2025-08-02T20:23:28.377Z"
+      "language": "pt",
+      "scrapedAt": "2025-08-03T04:08:36.867Z"
     }
   ],
   "urls": {
-    "midweek": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/julio-agosto-2025-mwb/",
-    "midweekSpecific": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/julio-agosto-2025-mwb/Vida-y-Ministerio-Cristianos-28-de-julio-a-3-de-agosto-de-2025/",
-    "weekend": "https://www.jw.org/es/revistas/atalaya-estudio-julio-2025/",
-    "workbookBase": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/",
-    "watchtowerBase": "https://www.jw.org/es/revistas/",
-    "videos": "https://www.jw.org/es/biblioteca/videos/#es/categories/VODSJJMeetings",
-    "music": "https://www.jw.org/es/biblioteca/musica-canciones/"
+    "midweek": "https://www.jw.org/pt/library/jw-apostila-do-mes/julho-agosto-2025-mwb/",
+    "midweekSpecific": null,
+    "weekend": "https://www.jw.org/pt/biblioteca/revistas/watchtower-study-junho-2025/",
+    "workbookBase": "https://www.jw.org/pt/library/jw-apostila-do-mes/",
+    "watchtowerBase": "https://www.jw.org/pt/biblioteca/revistas/",
+    "videos": "https://www.jw.org/pt/library/videos/#pt/categories/VODSJJMeetings",
+    "music": "https://www.jw.org/pt/library/musica-canciones/"
   },
   "stats": {
     "totalSections": 10,
-    "totalMaterials": 13,
+    "totalMaterials": 137,
     "totalDuration": null
   },
   "metadata": {
-    "generatedAt": "2025-08-02T20:23:28.393Z",
+    "generatedAt": "2025-08-03T04:08:39.320Z",
     "weekNumber": 31,
     "year": 2025,
     "filename": "week-31.json",
     "version": "1.0",
-    "language": "es",
+    "language": "pt",
     "languageConfig": {
-      "name": "Español",
-      "nativeName": "Español",
-      "code": "es"
+      "name": "Portuguese (Brazil)",
+      "nativeName": "Português (Brasil)",
+      "code": "pt"
     }
   }
 }

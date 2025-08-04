@@ -82,7 +82,7 @@ const CONFIG = {
       name: 'Portuguese (Brazil)',
       nativeName: 'Português (Brasil)',
       libraryPath: 'biblioteca',
-      workbookPath: 'apostila-reuniao-vida-ministerio-cristao',
+      workbookPath: 'jw-apostila-do-mes',
       watchtowerPath: 'biblioteca/revistas',
       watchtowerPrefix: 'sentinela-estudo',
       meetingPrefix: 'Nossa-Vida-e-Ministerio-Cristao',
@@ -96,9 +96,9 @@ const CONFIG = {
     fr: {
       name: 'French',
       nativeName: 'Français',
-      libraryPath: 'bibliotheque',
-      workbookPath: 'cahier-reunion-vie-ministere-chretien',
-      watchtowerPath: 'bibliotheque/revues',
+      libraryPath: 'bibliothèque',
+      workbookPath: 'jw-cahier-vie-et-ministere',
+      watchtowerPath: 'bibliothèque/revues',
       watchtowerPrefix: 'tour-garde-etude',
       meetingPrefix: 'Notre-Vie-Chretienne-et-Ministere',
       months: [

@@ -1,0 +1,267 @@
+{
+  "id": "week-2024-22",
+  "weekStartDate": "2024-05-27T06:00:00.000Z",
+  "weekEndDate": "2024-06-02T06:00:00.000Z",
+  "weekOf": "Semana del 27-2 may",
+  "year": 2024,
+  "weekNumber": 22,
+  "meetings": [
+    {
+      "type": "midweek",
+      "title": "27 de mayo a 2 de junio",
+      "date": "2025-08-03T03:56:05.838Z",
+      "url": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/mayo-junio-2024-mwb/Vida-y-Ministerio-Cristianos-27-de-mayo-a-2-de-junio-de-2024/",
+      "sections": [
+        {
+          "id": "section-1",
+          "order": 1,
+          "title": "Configuración de privacidad",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-2",
+          "order": 2,
+          "title": "Testigos de Jehová",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-3",
+          "order": 3,
+          "title": "27 de mayo a 2 de junio",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-4",
+          "order": 4,
+          "title": "SALMOS 42-44",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-5",
+          "order": 5,
+          "title": "Canción 86 y oración | Palabras de introducción (1 min.)",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-6",
+          "order": 6,
+          "title": "TESOROS DE LA BIBLIA",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-7",
+          "order": 7,
+          "title": "1. Aproveche al máximo la enseñanza que viene de Jehová",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-8",
+          "order": 8,
+          "title": "2. Busquemos perlas escondidas",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-9",
+          "order": 9,
+          "title": "3. Lectura de la Biblia",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-10",
+          "order": 10,
+          "title": "SEAMOS MEJORES MAESTROS",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        }
+      ],
+      "materials": {
+        "videos": [],
+        "images": [
+          {
+            "id": "image-3",
+            "title": "Hermanas escuchando con atención el programa de la asamblea y tomando notas.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024164/univ/art/202024164_univ_cnt_1_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024164/univ/art/202024164_univ_cnt_1_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024164/univ/art/202024164_univ_cnt_1_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024164/univ/art/202024164_univ_cnt_1_lg.jpg"
+            }
+          },
+          {
+            "id": "image-4",
+            "title": "Imágenes de un hermano joven que está leyendo la Biblia y se pone a meditar en lo que podría hacer después de la educación obligatoria. 1. Habla con un consejero escolar. 2. Asiste a la Escuela para Evangelizadores del Reino. 3. Predica en otro país.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024164/univ/art/202024164_univ_cnt_2_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024164/univ/art/202024164_univ_cnt_2_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024164/univ/art/202024164_univ_cnt_2_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024164/univ/art/202024164_univ_cnt_2_lg.jpg"
+            }
+          },
+          {
+            "id": "image-5",
+            "title": "Mayo y junio de 2024",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/mwb/202405/S/pt/mwb_S_202405_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/mwb/202405/S/pt/mwb_S_202405_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/mwb/202405/S/pt/mwb_S_202405_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/mwb/202405/S/pt/mwb_S_202405_lg.jpg"
+            }
+          },
+          {
+            "id": "image-6",
+            "title": "Mayo y junio de 2024",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/mwb/202405/S/pt/mwb_S_202405_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/mwb/202405/S/pt/mwb_S_202405_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/mwb/202405/S/pt/mwb_S_202405_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/mwb/202405/S/pt/mwb_S_202405_lg.jpg"
+            }
+          }
+        ],
+        "audio": [],
+        "songs": [],
+        "downloads": [
+          {
+            "id": "audio-1",
+            "title": "Texto\n                     \n                        Opciones de descarga de publicaciones\n                        \n   \n   GUÍA DE ACTIVIDADES Mayo y junio de 2024",
+            "downloadUrl": "https://www.jw.org/download/?issue=202405&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-2",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202405&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-3",
+            "title": "EPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202405&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-4",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202405&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-5",
+            "title": "Lector de pantalla (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202405&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-6",
+            "title": "Anotador (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202405&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-7",
+            "title": "Audio\n                     \n                        Opciones de descarga de audio\n                        \n   \n   GUÍA DE ACTIVIDADES Mayo y junio de 2024",
+            "downloadUrl": "https://www.jw.org/download/?issue=202405&output=html&pub=mwb&fileformat=MP3%2CAAC&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-8",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202405&output=html&pub=mwb&fileformat=MP3%2CAAC&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          }
+        ]
+      },
+      "totalDuration": 0,
+      "language": "es",
+      "scrapedAt": "2025-08-03T03:56:05.846Z"
+    },
+    {
+      "type": "weekend",
+      "title": "Español - weekend",
+      "date": null,
+      "url": "https://www.jw.org/es/revistas/atalaya-estudio-abril-2024/",
+      "sections": [],
+      "materials": {
+        "videos": [],
+        "images": [],
+        "audio": [],
+        "songs": []
+      },
+      "error": "No se pudo cargar ninguna URL para weekend. URLs intentadas: https://www.jw.org/es/revistas/atalaya-estudio-abril-2024/, https://www.jw.org/es/revistas/",
+      "urlsAttempted": [
+        "https://www.jw.org/es/revistas/atalaya-estudio-abril-2024/",
+        "https://www.jw.org/es/revistas/"
+      ],
+      "language": "es",
+      "scrapedAt": "2025-08-03T03:56:09.651Z"
+    }
+  ],
+  "urls": {
+    "midweek": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/mayo-junio-2024-mwb/",
+    "midweekSpecific": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/mayo-junio-2024-mwb/Vida-y-Ministerio-Cristianos-27-de-mayo-a-2-de-junio-de-2024/",
+    "weekend": "https://www.jw.org/es/revistas/atalaya-estudio-abril-2024/",
+    "workbookBase": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/",
+    "watchtowerBase": "https://www.jw.org/es/revistas/",
+    "videos": "https://www.jw.org/es/biblioteca/videos/#es/categories/VODSJJMeetings",
+    "music": "https://www.jw.org/es/biblioteca/musica-canciones/"
+  },
+  "stats": {
+    "totalSections": 10,
+    "totalMaterials": 12,
+    "totalDuration": null
+  },
+  "metadata": {
+    "generatedAt": "2025-08-03T03:56:09.663Z",
+    "weekNumber": 22,
+    "year": 2024,
+    "filename": "week-22.json",
+    "version": "1.0",
+    "language": "es",
+    "languageConfig": {
+      "name": "Español",
+      "nativeName": "Español",
+      "code": "es"
+    }
+  }
+}

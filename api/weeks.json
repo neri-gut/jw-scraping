@@ -1,6 +1,19 @@
 {
   "weeks": [
     {
+      "id": "week-2025-53",
+      "weekOf": "Semana del 29-4 dic",
+      "weekStartDate": "2025-12-29T06:00:00.000Z",
+      "weekEndDate": "2026-01-04T06:00:00.000Z",
+      "year": 2025,
+      "weekNumber": 53,
+      "meetingCount": 2,
+      "totalDuration": 0,
+      "totalMaterials": 20,
+      "dataUrl": "./data/2025/week-53.json",
+      "lastUpdated": "2025-08-03T03:56:18.530Z"
+    },
+    {
       "id": "week-2025-31",
       "weekOf": "Semana del 28-3 jul",
       "weekStartDate": "2025-07-28T06:00:00.000Z",
@@ -12,17 +25,69 @@
       "totalMaterials": 13,
       "dataUrl": "./data/2025/week-31.json",
       "lastUpdated": "2025-08-02T20:23:28.393Z"
+    },
+    {
+      "id": "week-2025-32",
+      "weekOf": "Semana del 28-3 jul",
+      "weekStartDate": "2025-07-28T06:00:00.000Z",
+      "weekEndDate": "2025-08-03T06:00:00.000Z",
+      "year": 2025,
+      "weekNumber": 32,
+      "meetingCount": 2,
+      "totalDuration": 0,
+      "totalMaterials": 13,
+      "dataUrl": "./data/2025/week-32.json",
+      "lastUpdated": "2025-08-03T03:55:12.685Z"
+    },
+    {
+      "id": "week-2025-30",
+      "weekOf": "Semana del 14-20 jul",
+      "weekStartDate": "2025-07-14T06:00:00.000Z",
+      "weekEndDate": "2025-07-20T06:00:00.000Z",
+      "year": 2025,
+      "weekNumber": 30,
+      "meetingCount": 2,
+      "totalDuration": 0,
+      "totalMaterials": 20,
+      "dataUrl": "./data/2025/week-30.json",
+      "lastUpdated": "2025-08-03T03:55:23.408Z"
+    },
+    {
+      "id": "week-2024-53",
+      "weekOf": "Semana del 30-5 dic",
+      "weekStartDate": "2024-12-30T06:00:00.000Z",
+      "weekEndDate": "2025-01-05T06:00:00.000Z",
+      "year": 2024,
+      "weekNumber": 53,
+      "meetingCount": 2,
+      "totalDuration": 0,
+      "totalMaterials": 21,
+      "dataUrl": "./data/2024/week-53.json",
+      "lastUpdated": "2025-08-03T03:55:33.172Z"
+    },
+    {
+      "id": "week-2024-22",
+      "weekOf": "Semana del 27-2 may",
+      "weekStartDate": "2024-05-27T06:00:00.000Z",
+      "weekEndDate": "2024-06-02T06:00:00.000Z",
+      "year": 2024,
+      "weekNumber": 22,
+      "meetingCount": 2,
+      "totalDuration": 0,
+      "totalMaterials": 12,
+      "dataUrl": "./data/2024/week-22.json",
+      "lastUpdated": "2025-08-03T03:56:09.663Z"
     }
   ],
   "meta": {
     "endpoint": "weeks",
     "description": "All available weeks (all languages)",
-    "generatedAt": "2025-08-02T20:46:32.786Z",
-    "totalWeeks": 1,
+    "generatedAt": "2025-08-03T03:57:32.530Z",
+    "totalWeeks": 6,
     "language": "multi",
     "dateRange": {
-      "earliest": "2025-07-28T06:00:00.000Z",
-      "latest": "2025-07-28T06:00:00.000Z"
+      "earliest": "2024-05-27T06:00:00.000Z",
+      "latest": "2025-12-29T06:00:00.000Z"
     },
     "version": "1.0"
   }

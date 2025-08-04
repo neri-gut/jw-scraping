@@ -1,0 +1,362 @@
+{
+  "id": "week-2024-53",
+  "weekStartDate": "2024-12-30T06:00:00.000Z",
+  "weekEndDate": "2025-01-05T06:00:00.000Z",
+  "weekOf": "Semana del 30-5 dic",
+  "year": 2024,
+  "weekNumber": 53,
+  "meetings": [
+    {
+      "type": "midweek",
+      "title": "GUÍA DE ACTIVIDADES\n                  Noviembre y diciembre de 2024",
+      "date": "2025-08-03T03:55:32.131Z",
+      "url": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/noviembre-diciembre-2024-mwb/",
+      "sections": [
+        {
+          "id": "section-1",
+          "order": 1,
+          "title": "Configuración de privacidad",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-2",
+          "order": 2,
+          "title": "Testigos de Jehová",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-3",
+          "order": 3,
+          "title": "GUÍA DE ACTIVIDADES\n                  Noviembre y diciembre de 2024",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-4",
+          "order": 4,
+          "title": "4-10 de noviembre",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-5",
+          "order": 5,
+          "title": "11-17 de noviembre",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-6",
+          "order": 6,
+          "title": "18-24 de noviembre",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-7",
+          "order": 7,
+          "title": "25 de noviembre a 1 de diciembre",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-8",
+          "order": 8,
+          "title": "2-8 de diciembre",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-9",
+          "order": 9,
+          "title": "9-15 de diciembre",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        },
+        {
+          "id": "section-10",
+          "order": 10,
+          "title": "16-22 de diciembre",
+          "duration": 0,
+          "type": "general",
+          "materials": [],
+          "source": "heading"
+        }
+      ],
+      "materials": {
+        "videos": [],
+        "images": [
+          {
+            "id": "image-3",
+            "title": "Israelitas felices cosechando mucho trigo.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024400/univ/art/202024400_univ_lsr_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024400/univ/art/202024400_univ_lsr_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024400/univ/art/202024400_univ_lsr_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024400/univ/art/202024400_univ_lsr_lg.jpg"
+            }
+          },
+          {
+            "id": "image-4",
+            "title": "La Tierra Prometida. Serie de imágenes: 1. Abrahán. 2. Isaac. 3. Jacob.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024401/univ/art/202024401_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024401/univ/art/202024401_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024401/univ/art/202024401_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024401/univ/art/202024401_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-5",
+            "title": "Una hermana que está a punto de salir a predicar.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024402/univ/art/202024402_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024402/univ/art/202024402_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024402/univ/art/202024402_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024402/univ/art/202024402_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-6",
+            "title": "Dos hermanas predicando de casa en casa.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024403/univ/art/202024403_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024403/univ/art/202024403_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024403/univ/art/202024403_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024403/univ/art/202024403_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-7",
+            "title": "Un hermano capacita a un joven para que atienda una tarea en la congregación.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024404/univ/art/202024404_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024404/univ/art/202024404_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024404/univ/art/202024404_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024404/univ/art/202024404_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-8",
+            "title": "Un matrimonio mira hacia adelante con confianza.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024405/univ/art/202024405_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024405/univ/art/202024405_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024405/univ/art/202024405_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024405/univ/art/202024405_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-9",
+            "title": "Un hermano joven hace su estudio personal.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024406/univ/art/202024406_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024406/univ/art/202024406_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024406/univ/art/202024406_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024406/univ/art/202024406_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-10",
+            "title": "Sentado en su cama, un hermano que está enfermo ora con su esposa.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024407/univ/art/202024407_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024407/univ/art/202024407_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024407/univ/art/202024407_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024407/univ/art/202024407_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-11",
+            "title": "Una Biblia abierta junto a un montón de monedas y lingotes de oro.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024408/univ/art/202024408_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024408/univ/art/202024408_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024408/univ/art/202024408_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024408/univ/art/202024408_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-12",
+            "title": "Israelitas felices cosechando mucho trigo.",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/202024409/univ/art/202024409_univ_sqs_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/202024409/univ/art/202024409_univ_sqs_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/202024409/univ/art/202024409_univ_sqs_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/202024409/univ/art/202024409_univ_sqs_lg.jpg"
+            }
+          },
+          {
+            "id": "image-13",
+            "title": "Noviembre y diciembre de 2024",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/mwb/202411/S/pt/mwb_S_202411_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/mwb/202411/S/pt/mwb_S_202411_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/mwb/202411/S/pt/mwb_S_202411_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/mwb/202411/S/pt/mwb_S_202411_lg.jpg"
+            }
+          },
+          {
+            "id": "image-14",
+            "title": "Noviembre y diciembre de 2024",
+            "downloadUrl": "https://cms-imgp.jw-cdn.org/img/p/mwb/202411/S/pt/mwb_S_202411_lg.jpg",
+            "format": "jpg",
+            "sizes": {
+              "large": "https://cms-imgp.jw-cdn.org/img/p/mwb/202411/S/pt/mwb_S_202411_lg.jpg",
+              "medium": "https://cms-imgp.jw-cdn.org/img/p/mwb/202411/S/pt/mwb_S_202411_lg.jpg",
+              "small": "https://cms-imgp.jw-cdn.org/img/p/mwb/202411/S/pt/mwb_S_202411_lg.jpg"
+            }
+          }
+        ],
+        "audio": [],
+        "songs": [],
+        "downloads": [
+          {
+            "id": "audio-1",
+            "title": "Texto\n                     \n                        Opciones de descarga de publicaciones\n                        \n   \n   GUÍA DE ACTIVIDADES Noviembre y diciembre de 2024",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-2",
+            "title": "PDF",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-3",
+            "title": "EPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-4",
+            "title": "JWPUB",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-5",
+            "title": "Lector de pantalla (RTF)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-6",
+            "title": "Anotador (BRL)",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-7",
+            "title": "DAISY",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-8",
+            "title": "Audio\n                     \n                        Opciones de descarga de audio\n                        \n   \n   GUÍA DE ACTIVIDADES Noviembre y diciembre de 2024",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=MP3%2CAAC&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          },
+          {
+            "id": "audio-9",
+            "title": "MP3",
+            "downloadUrl": "https://www.jw.org/download/?issue=202411&output=html&pub=mwb&fileformat=MP3%2CAAC&alllangs=0&langwritten=S&txtCMSLang=S&isBible=0",
+            "format": null,
+            "size": null
+          }
+        ]
+      },
+      "totalDuration": 0,
+      "language": "es",
+      "scrapedAt": "2025-08-03T03:55:32.137Z"
+    },
+    {
+      "type": "weekend",
+      "title": "Español - weekend",
+      "date": null,
+      "url": "https://www.jw.org/es/revistas/atalaya-estudio-noviembre-2024/",
+      "sections": [],
+      "materials": {
+        "videos": [],
+        "images": [],
+        "audio": [],
+        "songs": []
+      },
+      "error": "No se pudo cargar ninguna URL para weekend. URLs intentadas: https://www.jw.org/es/revistas/atalaya-estudio-noviembre-2024/, https://www.jw.org/es/revistas/",
+      "urlsAttempted": [
+        "https://www.jw.org/es/revistas/atalaya-estudio-noviembre-2024/",
+        "https://www.jw.org/es/revistas/"
+      ],
+      "language": "es",
+      "scrapedAt": "2025-08-03T03:55:33.162Z"
+    }
+  ],
+  "urls": {
+    "midweek": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/noviembre-diciembre-2024-mwb/",
+    "midweekSpecific": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/noviembre-diciembre-2024-mwb/Vida-y-Ministerio-Cristianos-30-de-diciembre-a-5-de-enero-de-2025/",
+    "weekend": "https://www.jw.org/es/revistas/atalaya-estudio-noviembre-2024/",
+    "workbookBase": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/",
+    "watchtowerBase": "https://www.jw.org/es/revistas/",
+    "videos": "https://www.jw.org/es/biblioteca/videos/#es/categories/VODSJJMeetings",
+    "music": "https://www.jw.org/es/biblioteca/musica-canciones/"
+  },
+  "stats": {
+    "totalSections": 10,
+    "totalMaterials": 21,
+    "totalDuration": null
+  },
+  "metadata": {
+    "generatedAt": "2025-08-03T03:55:33.172Z",
+    "weekNumber": 53,
+    "year": 2024,
+    "filename": "week-53.json",
+    "version": "1.0",
+    "language": "es",
+    "languageConfig": {
+      "name": "Español",
+      "nativeName": "Español",
+      "code": "es"
+    }
+  }
+}
