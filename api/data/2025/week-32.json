@@ -1,7 +1,12 @@
 {
   "id": "week-2025-32",
+<<<<<<< HEAD
   "weekStartDate": "2025-07-28T06:00:00.000Z",
   "weekEndDate": "2025-08-03T06:00:00.000Z",
+=======
+  "weekStartDate": "2025-07-28T00:00:00.000Z",
+  "weekEndDate": "2025-08-03T00:00:00.000Z",
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
   "weekOf": "Semana del 28-3 jul",
   "year": 2025,
   "weekNumber": 32,
@@ -9,7 +14,11 @@
     {
       "type": "midweek",
       "title": "28 de julio a 3 de agosto",
+<<<<<<< HEAD
       "date": "2025-08-03T03:55:09.134Z",
+=======
+      "date": "2025-08-03T06:32:28.444Z",
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
       "url": "https://www.jw.org/es/biblioteca/guia-actividades-reunion-testigos-jehova/julio-agosto-2025-mwb/Vida-y-Ministerio-Cristianos-28-de-julio-a-3-de-agosto-de-2025/",
       "sections": [
         {
@@ -221,7 +230,11 @@
       },
       "totalDuration": 0,
       "language": "es",
+<<<<<<< HEAD
       "scrapedAt": "2025-08-03T03:55:09.147Z"
+=======
+      "scrapedAt": "2025-08-03T06:32:28.458Z"
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     },
     {
       "type": "weekend",
@@ -241,7 +254,11 @@
         "https://www.jw.org/es/revistas/"
       ],
       "language": "es",
+<<<<<<< HEAD
       "scrapedAt": "2025-08-03T03:55:12.664Z"
+=======
+      "scrapedAt": "2025-08-03T06:32:31.987Z"
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     }
   ],
   "urls": {
@@ -259,7 +276,11 @@
     "totalDuration": null
   },
   "metadata": {
+<<<<<<< HEAD
     "generatedAt": "2025-08-03T03:55:12.685Z",
+=======
+    "generatedAt": "2025-08-03T06:32:31.992Z",
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     "weekNumber": 32,
     "year": 2025,
     "filename": "week-32.json",

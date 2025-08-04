@@ -142,7 +142,11 @@
   "meta": {
     "endpoint": "languages",
     "description": "Supported languages and their configuration",
+<<<<<<< HEAD
     "generatedAt": "2025-08-03T03:57:32.532Z",
+=======
+    "generatedAt": "2025-08-03T06:32:33.172Z",
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     "totalLanguages": 6,
     "version": "1.0"
   }

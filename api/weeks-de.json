@@ -3,7 +3,11 @@
   "meta": {
     "endpoint": "weeks",
     "description": "All weeks for de",
+<<<<<<< HEAD
     "generatedAt": "2025-08-03T03:57:32.538Z",
+=======
+    "generatedAt": "2025-08-03T06:32:33.185Z",
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     "totalWeeks": 0,
     "language": "de",
     "dateRange": {},

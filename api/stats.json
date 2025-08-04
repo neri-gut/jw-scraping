@@ -1,26 +1,45 @@
 {
   "overview": {
+<<<<<<< HEAD
     "totalWeeks": 6,
     "totalMeetings": 12,
     "totalSections": 60,
     "totalMaterials": 47,
+=======
+    "totalWeeks": 2,
+    "totalMeetings": 4,
+    "totalSections": 20,
+    "totalMaterials": 8,
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     "totalDuration": 0
   },
   "byMeetingType": {
     "midweek": {
+<<<<<<< HEAD
       "count": 6,
+=======
+      "count": 2,
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
       "avgDuration": 0,
       "materials": 0
     },
     "weekend": {
+<<<<<<< HEAD
       "count": 6,
+=======
+      "count": 2,
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
       "avgDuration": 0,
       "materials": 0
     }
   },
   "byMaterialType": {
     "videos": 0,
+<<<<<<< HEAD
     "images": 47,
+=======
+    "images": 8,
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     "audio": 0,
     "songs": 0
   },
@@ -31,13 +50,20 @@
       "materials": 16
     },
     "2025": {
+<<<<<<< HEAD
       "weeks": 4,
       "meetings": 8,
       "materials": 31
+=======
+      "weeks": 2,
+      "meetings": 4,
+      "materials": 8
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     }
   },
   "byLanguage": {
     "es": {
+<<<<<<< HEAD
       "weeks": 6,
       "meetings": 12,
       "materials": 47
@@ -54,6 +80,24 @@
   },
   "meta": {
     "generatedAt": "2025-08-03T03:57:32.531Z",
+=======
+      "weeks": 2,
+      "meetings": 4,
+      "materials": 8
+    }
+  },
+  "dateRange": {
+    "earliest": "2025-07-28T00:00:00.000Z",
+    "latest": "2025-07-28T00:00:00.000Z"
+  },
+  "quality": {
+    "weeksWithErrors": 2,
+    "avgMaterialsPerWeek": 4,
+    "avgSectionsPerMeeting": 5
+  },
+  "meta": {
+    "generatedAt": "2025-08-03T06:32:33.171Z",
+>>>>>>> 3247a3b0d9db14ee04de9d5af86f6faf5cd75b35
     "dataVersion": "1.0"
   }
 }
