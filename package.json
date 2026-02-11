@@ -1,0 +1,38 @@
+{
+  "name": "jw-scraping",
+  "version": "1.0.0",
+  "description": "Scraper y Parser extendido para publicaciones JW",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/index.ts",
+    "validate": "echo 'Validating content...'",
+    "generate-api": "echo 'Generating API...'",
+    "summary": "echo 'Generating summary...'",
+    "test": "mocha",
+    "poc:bible": "tsx src/bible_poc.ts",
+    "poc:bible:epub": "tsx src/bible_epub_poc.ts"
+  },
+  "keywords": [
+    "jw",
+    "scraper",
+    "parser",
+    "supabase"
+  ],
+  "author": "Neri Gutiérrez",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "node-html-parser": "^7.0.1",
+    "pako": "^2.1.0",
+    "sql.js": "^1.12.0",
+    "@supabase/supabase-js": "^2.48.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/pako": "^2.0.3",
+    "@types/sql.js": "^1.4.9",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
