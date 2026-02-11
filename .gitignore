@@ -120,3 +120,7 @@ coverage/
 screenshots/
 debug-pages/
 browser-cache/
+
+# Added by cargo
+
+/target

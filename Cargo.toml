@@ -1,0 +1,52 @@
+[package]
+name = "jw_parser"
+version = "0.1.0"
+edition = "2021"
+authors = ["Neri Gutiérrez"]
+description = "High-performance parser for JW.org publications (.jwpub)"
+
+[dependencies]
+url = "2.5"
+reqwest = { version = "0.12", default-features = false, features = ["json", "blocking", "rustls-tls"] }
+clap = { version = "4.4", features = ["derive"] }
+chrono = "0.4"
+# Error Handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Database
+rusqlite = { version = "0.31", features = ["bundled"] }
+
+# Compression & Archives
+zip = { version = "0.6", default-features = false, features = ["deflate"] }
+flate2 = "1.0"
+
+# Cryptography
+aes = "0.8"
+cbc = "0.1"
+sha2 = "0.10"
+base64 = "0.22"
+
+# HTML Parsing
+scraper = "0.19"
+
+# Concurrency (Optional but good for batch extraction)
+rayon = "1.10"
+
+# Utilities
+hex = "0.4"
+tempfile = "3.10"
+walkdir = "2.5"
+log = "0.4"
+env_logger = "0.11"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[[bin]]
+name = "jw_cli"
+path = "src/bin/cli.rs"
